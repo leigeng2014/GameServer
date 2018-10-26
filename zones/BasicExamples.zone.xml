@@ -1,0 +1,26 @@
+<zone>
+	<id>1</id>
+	<name>BasicExamples</name>
+	<maxUsers>1000</maxUsers>
+	<maxUserVariablesAllowed>10</maxUserVariablesAllowed>
+	<maxRoomVariablesAllowed>10</maxRoomVariablesAllowed>
+	<maxRooms>500</maxRooms>
+	<userCountChangeUpdateInterval>1000</userCountChangeUpdateInterval>
+	<userReconnectionSeconds>600</userReconnectionSeconds>
+	<overrideMaxUserIdleTime>300</overrideMaxUserIdleTime>
+	<rooms>
+		<room>
+			<name>The Lobby</name>
+			<groupId>default</groupId>
+			<password></password>
+			<maxUsers>150</maxUsers>
+			<maxSpectators>0</maxSpectators>
+			<isDynamic>false</isDynamic>
+			<isGame>false</isGame>
+			<isHidden>false</isHidden>
+			<autoRemoveMode>DEFAULT</autoRemoveMode>
+			<events>USER_ENTER_EVENT,USER_EXIT_EVENT,USER_COUNT_CHANGE_EVENT,USER_VARIABLES_UPDATE_EVENT
+			</events>
+		</room>
+	</rooms>
+</zone>

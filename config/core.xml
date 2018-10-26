@@ -1,0 +1,18 @@
+<coreSettings>
+    <readBufferType>Heap</readBufferType>
+    <writeBufferType>Heap</writeBufferType>
+
+    <!-- Editable settings -->
+
+    <!-- Max size of incoming packet -->
+    <maxIncomingRequestSize>1000000</maxIncomingRequestSize>
+
+    <!-- Session Queue Size -->
+    <sessionPacketQueueSize>160</sessionPacketQueueSize>
+
+    <!-- Thread Pool Size of the 3 main stages of the Bitswarm Engine -->
+    <socketAcceptorThreadPoolSize>1</socketAcceptorThreadPoolSize>
+    <socketReaderThreadPoolSize>1</socketReaderThreadPoolSize>
+    <socketWriterThreadPoolSize>3</socketWriterThreadPoolSize>
+
+</coreSettings>

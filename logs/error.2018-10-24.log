@@ -1,0 +1,484 @@
+2018-10-24 11:41:22.691 [nettyDefaultEventExecutorGroup-2-1] ERROR c.n.b.e.h.room.CreateRoomHandler - 创建房间出错:12,{}
+com.net.server.exceptions.SFSCreateRoomException: Room creation error. Room name length is out of valid range. Min: 5, Max: 20, Found: 4 (好友房0),( User Name: 测试玩家, Id: 12, Priv: 0, Sess:  ) 
+	at com.net.server.api.GameApi.createRoom(GameApi.java:232) ~[classes/:na]
+	at com.net.business.extensions.handler.room.CreateRoomHandler.handleClientRequest(CreateRoomHandler.java:28) ~[classes/:na]
+	at com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77) [classes/:na]
+	at com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97) [classes/:na]
+	at com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150) [classes/:na]
+	at io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+2018-10-24 11:41:22.701 [nettyDefaultEventExecutorGroup-2-1] ERROR c.n.s.c.ExtensionReqController - java.lang.NullPointerException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: Error while handling client request in extension: com.net.business.extensions.ExtensionMain@38662775
+Extension Cmd: 7
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.net.business.extensions.handler.room.CreateRoomHandler.handleClientRequest(CreateRoomHandler.java:35)
+com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77)
+com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97)
+com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150)
+io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+java.lang.Thread.run(Thread.java:748)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+2018-10-24 11:46:41.328 [nettyDefaultEventExecutorGroup-2-1] ERROR c.n.b.e.h.room.CreateRoomHandler - 创建房间出错:12,{}
+com.net.server.exceptions.SFSCreateRoomException: Room creation error. Room name length is out of valid range. Min: 5, Max: 20, Found: 4 (好友房0),( User Name: 测试玩家, Id: 12, Priv: 0, Sess:  ) 
+	at com.net.server.api.GameApi.createRoom(GameApi.java:232) ~[classes/:na]
+	at com.net.business.extensions.handler.room.CreateRoomHandler.handleClientRequest(CreateRoomHandler.java:28) ~[classes/:na]
+	at com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77) [classes/:na]
+	at com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97) [classes/:na]
+	at com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150) [classes/:na]
+	at io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+2018-10-24 11:46:41.328 [nettyDefaultEventExecutorGroup-2-1] ERROR c.n.s.c.ExtensionReqController - java.lang.NullPointerException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: Error while handling client request in extension: com.net.business.extensions.ExtensionMain@38662775
+Extension Cmd: 7
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.net.business.extensions.handler.room.CreateRoomHandler.handleClientRequest(CreateRoomHandler.java:35)
+com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77)
+com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97)
+com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150)
+io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+java.lang.Thread.run(Thread.java:748)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+2018-10-24 11:48:48.334 [nettyDefaultEventExecutorGroup-2-1] ERROR c.n.b.e.h.room.CreateRoomHandler - 创建房间出错:12,{}
+com.net.server.exceptions.SFSCreateRoomException: Room creation error. Room name length is out of valid range. Min: 5, Max: 20, Found: 4 (好友房0),( User Name: 测试玩家, Id: 12, Priv: 0, Sess:  ) 
+	at com.net.server.api.GameApi.createRoom(GameApi.java:232) ~[classes/:na]
+	at com.net.business.extensions.handler.room.CreateRoomHandler.handleClientRequest(CreateRoomHandler.java:28) ~[classes/:na]
+	at com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77) [classes/:na]
+	at com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97) [classes/:na]
+	at com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150) [classes/:na]
+	at io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+2018-10-24 11:48:48.335 [nettyDefaultEventExecutorGroup-2-1] ERROR c.n.s.c.ExtensionReqController - java.lang.NullPointerException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: Error while handling client request in extension: com.net.business.extensions.ExtensionMain@38662775
+Extension Cmd: 7
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.net.business.extensions.handler.room.CreateRoomHandler.handleClientRequest(CreateRoomHandler.java:35)
+com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77)
+com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97)
+com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150)
+io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+java.lang.Thread.run(Thread.java:748)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+2018-10-24 11:58:52.758 [nettyDefaultEventExecutorGroup-2-2] ERROR c.n.b.e.h.room.CreateRoomHandler - 创建房间出错:13,{}
+com.net.server.exceptions.SFSCreateRoomException: Room creation error. A room with the same name already exists: 好友房100000,( User Name: 测试玩家, Id: 13, Priv: 0, Sess:  ) 
+	at com.net.server.api.GameApi.createRoom(GameApi.java:232) ~[classes/:na]
+	at com.net.business.extensions.handler.room.CreateRoomHandler.handleClientRequest(CreateRoomHandler.java:28) ~[classes/:na]
+	at com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77) [classes/:na]
+	at com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97) [classes/:na]
+	at com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150) [classes/:na]
+	at io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+2018-10-24 11:58:52.761 [nettyDefaultEventExecutorGroup-2-2] ERROR c.n.s.c.ExtensionReqController - java.lang.NullPointerException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: Error while handling client request in extension: com.net.business.extensions.ExtensionMain@5ca03827
+Extension Cmd: 7
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.net.business.extensions.handler.room.CreateRoomHandler.handleClientRequest(CreateRoomHandler.java:35)
+com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77)
+com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97)
+com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150)
+io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+java.lang.Thread.run(Thread.java:748)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+2018-10-24 12:03:05.978 [nettyDefaultEventExecutorGroup-2-2] ERROR c.n.s.c.ExtensionReqController - java.lang.IllegalArgumentException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.IllegalArgumentException
+Message: Unrecognized DataType while converting JSONObject 2 GameObject. Object: null, Type: class net.sf.json.JSONNull
+Description: Error while handling client request in extension: com.net.business.extensions.ExtensionMain@1e5ec2a0
+Extension Cmd: 7
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.net.server.data.DefaultGameDataSerializer.decodeJsonObject(DefaultGameDataSerializer.java:261)
+com.net.server.data.DefaultGameDataSerializer.decodeGameObject(DefaultGameDataSerializer.java:214)
+com.net.server.data.DefaultGameDataSerializer.json2object(DefaultGameDataSerializer.java:203)
+com.net.server.data.GameObject.newFromJsonData(GameObject.java:28)
+com.net.server.entities.GameRoom.getUserListData(GameRoom.java:538)
+com.net.server.api.response.GameResponseApi.notifyJoinRoomSuccess(GameResponseApi.java:109)
+com.net.server.api.GameApi.joinRoom(GameApi.java:313)
+com.net.server.api.GameApi.joinRoom(GameApi.java:252)
+com.net.server.api.GameApi.joinRoom(GameApi.java:247)
+com.net.business.extensions.handler.room.CreateRoomHandler.handleClientRequest(CreateRoomHandler.java:32)
+com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77)
+com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97)
+com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150)
+io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+java.lang.Thread.run(Thread.java:748)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+2018-10-24 14:02:59.477 [nettyDefaultEventExecutorGroup-2-1] ERROR c.n.b.e.h.room.StartGameHandler - 创建房间出错:13,{}
+java.lang.NullPointerException: null
+	at com.net.business.extensions.handler.room.StartGameHandler.handleClientRequest(StartGameHandler.java:32) ~[classes/:na]
+	at com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77) [classes/:na]
+	at com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97) [classes/:na]
+	at com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150) [classes/:na]
+	at io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+2018-10-24 14:06:20.513 [nettyDefaultEventExecutorGroup-2-1] ERROR c.n.b.e.h.room.StartGameHandler - 创建房间出错:13,{}
+java.lang.NullPointerException: null
+	at com.net.business.extensions.handler.room.StartGameHandler.handleClientRequest(StartGameHandler.java:32) ~[classes/:na]
+	at com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77) [classes/:na]
+	at com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97) [classes/:na]
+	at com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150) [classes/:na]
+	at io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+2018-10-24 14:07:08.157 [nettyDefaultEventExecutorGroup-2-1] ERROR c.n.b.e.h.room.StartGameHandler - 创建房间出错:13,{}
+java.lang.NullPointerException: null
+	at com.net.business.extensions.handler.room.StartGameHandler.handleClientRequest(StartGameHandler.java:32) ~[classes/:na]
+	at com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77) [classes/:na]
+	at com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97) [classes/:na]
+	at com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150) [classes/:na]
+	at io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+2018-10-24 14:09:08.315 [nettyDefaultEventExecutorGroup-2-1] ERROR c.n.b.e.h.room.StartGameHandler - 创建房间出错:13,{}
+java.lang.NullPointerException: null
+	at com.net.business.extensions.handler.room.StartGameHandler.handleClientRequest(StartGameHandler.java:36) ~[classes/:na]
+	at com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77) [classes/:na]
+	at com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97) [classes/:na]
+	at com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150) [classes/:na]
+	at io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+2018-10-24 16:10:26.012 [nettyDefaultEventExecutorGroup-2-2] ERROR c.n.s.c.ExtensionReqController - java.lang.IllegalArgumentException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.IllegalArgumentException
+Message: Unrecognized DataType while converting JSONObject 2 GameObject. Object: null, Type: class net.sf.json.JSONNull
+Description: Error while handling client request in extension: com.net.business.extensions.ExtensionMain@1993c2bd
+Extension Cmd: 5
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.net.server.data.DefaultGameDataSerializer.decodeJsonObject(DefaultGameDataSerializer.java:261)
+com.net.server.data.DefaultGameDataSerializer.decodeGameObject(DefaultGameDataSerializer.java:214)
+com.net.server.data.DefaultGameDataSerializer.json2object(DefaultGameDataSerializer.java:203)
+com.net.server.data.GameObject.newFromJsonData(GameObject.java:28)
+com.net.server.api.response.GameResponseApi.notifyUserEnterRoom(GameResponseApi.java:130)
+com.net.server.api.GameApi.joinRoom(GameApi.java:315)
+com.net.server.api.GameApi.joinRoom(GameApi.java:252)
+com.net.server.api.GameApi.joinRoom(GameApi.java:247)
+com.net.business.extensions.handler.room.JoinRoomHandler.handleClientRequest(JoinRoomHandler.java:44)
+com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77)
+com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97)
+com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150)
+io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+java.lang.Thread.run(Thread.java:748)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+2018-10-24 16:22:27.979 [nettyDefaultEventExecutorGroup-2-1] ERROR c.n.s.c.ExtensionReqController - java.lang.NullPointerException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: Error while handling client request in extension: com.net.business.extensions.ExtensionMain@48becb4a
+Extension Cmd: 15
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.net.business.extensions.handler.room.LeaveRoomHandler.handleClientRequest(LeaveRoomHandler.java:37)
+com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77)
+com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97)
+com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150)
+io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+java.lang.Thread.run(Thread.java:748)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+2018-10-24 16:28:45.599 [nettyDefaultEventExecutorGroup-2-2] ERROR c.n.b.e.h.room.JoinRoomHandler - 加入房间出错:13,{}
+com.net.server.exceptions.GameException: 房间不存在
+	at com.net.business.extensions.handler.room.JoinRoomHandler.handleClientRequest(JoinRoomHandler.java:28) ~[classes/:na]
+	at com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77) [classes/:na]
+	at com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97) [classes/:na]
+	at com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150) [classes/:na]
+	at io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+2018-10-24 16:35:52.581 [nettyDefaultEventExecutorGroup-2-2] ERROR c.n.b.e.h.room.CreateRoomHandler - 创建房间出错:13,{}
+com.net.server.exceptions.SFSCreateRoomException: Room creation error. A room with the same name already exists: 好友房100000,( User Name: 测试玩家, Id: 13, Priv: 0, Sess:  ) 
+	at com.net.server.api.GameApi.createRoom(GameApi.java:232) ~[classes/:na]
+	at com.net.business.extensions.handler.room.CreateRoomHandler.handleClientRequest(CreateRoomHandler.java:28) ~[classes/:na]
+	at com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77) [classes/:na]
+	at com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97) [classes/:na]
+	at com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150) [classes/:na]
+	at io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+2018-10-24 16:35:52.582 [nettyDefaultEventExecutorGroup-2-2] ERROR c.n.s.c.ExtensionReqController - java.lang.NullPointerException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: Error while handling client request in extension: com.net.business.extensions.ExtensionMain@61f3291a
+Extension Cmd: 7
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.net.business.extensions.handler.room.CreateRoomHandler.handleClientRequest(CreateRoomHandler.java:35)
+com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77)
+com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97)
+com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150)
+io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+java.lang.Thread.run(Thread.java:748)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+2018-10-24 16:46:39.195 [nettyDefaultEventExecutorGroup-2-2] ERROR c.n.b.e.h.room.JoinRoomHandler - 加入房间出错:13,{}
+com.net.server.exceptions.GameException: 房间不存在
+	at com.net.business.extensions.handler.room.JoinRoomHandler.handleClientRequest(JoinRoomHandler.java:28) ~[classes/:na]
+	at com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77) [classes/:na]
+	at com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97) [classes/:na]
+	at com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150) [classes/:na]
+	at io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+2018-10-24 16:47:49.196 [nettyDefaultEventExecutorGroup-2-3] ERROR c.n.b.e.h.room.CreateRoomHandler - 创建房间出错:2,{}
+com.net.server.exceptions.SFSCreateRoomException: Room creation error. A room with the same name already exists: 好友房100000,( User Name: 小砖头, Id: 2, Priv: 0, Sess:  ) 
+	at com.net.server.api.GameApi.createRoom(GameApi.java:232) ~[classes/:na]
+	at com.net.business.extensions.handler.room.CreateRoomHandler.handleClientRequest(CreateRoomHandler.java:28) ~[classes/:na]
+	at com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77) [classes/:na]
+	at com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97) [classes/:na]
+	at com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150) [classes/:na]
+	at io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+2018-10-24 16:47:49.197 [nettyDefaultEventExecutorGroup-2-3] ERROR c.n.s.c.ExtensionReqController - java.lang.NullPointerException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: Error while handling client request in extension: com.net.business.extensions.ExtensionMain@3398b5be
+Extension Cmd: 7
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.net.business.extensions.handler.room.CreateRoomHandler.handleClientRequest(CreateRoomHandler.java:35)
+com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77)
+com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97)
+com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150)
+io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+java.lang.Thread.run(Thread.java:748)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+2018-10-24 16:49:33.675 [nettyDefaultEventExecutorGroup-2-3] ERROR c.n.b.e.h.room.CreateRoomHandler - 创建房间出错:2,{}
+com.net.server.exceptions.SFSCreateRoomException: Room creation error. A room with the same name already exists: 好友房100000,( User Name: 小砖头, Id: 2, Priv: 0, Sess:  ) 
+	at com.net.server.api.GameApi.createRoom(GameApi.java:232) ~[classes/:na]
+	at com.net.business.extensions.handler.room.CreateRoomHandler.handleClientRequest(CreateRoomHandler.java:28) ~[classes/:na]
+	at com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77) [classes/:na]
+	at com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97) [classes/:na]
+	at com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150) [classes/:na]
+	at io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+2018-10-24 16:49:33.675 [nettyDefaultEventExecutorGroup-2-3] ERROR c.n.s.c.ExtensionReqController - java.lang.NullPointerException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: Error while handling client request in extension: com.net.business.extensions.ExtensionMain@3398b5be
+Extension Cmd: 7
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.net.business.extensions.handler.room.CreateRoomHandler.handleClientRequest(CreateRoomHandler.java:35)
+com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77)
+com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97)
+com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150)
+io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+java.lang.Thread.run(Thread.java:748)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+2018-10-24 16:51:48.713 [nettyDefaultEventExecutorGroup-2-2] ERROR c.n.b.e.h.room.CreateRoomHandler - 创建房间出错:13,{}
+com.net.server.exceptions.SFSCreateRoomException: Room creation error. A room with the same name already exists: 好友房100000,( User Name: 测试玩家, Id: 13, Priv: 0, Sess:  ) 
+	at com.net.server.api.GameApi.createRoom(GameApi.java:232) ~[classes/:na]
+	at com.net.business.extensions.handler.room.CreateRoomHandler.handleClientRequest(CreateRoomHandler.java:28) ~[classes/:na]
+	at com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77) [classes/:na]
+	at com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97) [classes/:na]
+	at com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150) [classes/:na]
+	at io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+2018-10-24 16:51:48.715 [nettyDefaultEventExecutorGroup-2-2] ERROR c.n.s.c.ExtensionReqController - java.lang.NullPointerException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: Error while handling client request in extension: com.net.business.extensions.ExtensionMain@7acf4d86
+Extension Cmd: 7
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.net.business.extensions.handler.room.CreateRoomHandler.handleClientRequest(CreateRoomHandler.java:35)
+com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77)
+com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97)
+com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150)
+io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+java.lang.Thread.run(Thread.java:748)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+2018-10-24 16:58:47.591 [nettyDefaultEventExecutorGroup-2-2] ERROR c.n.b.e.h.room.JoinRoomHandler - 加入房间出错:13,{}
+com.net.server.exceptions.GameException: 游戏已经开始
+	at com.net.business.extensions.handler.room.JoinRoomHandler.handleClientRequest(JoinRoomHandler.java:40) ~[classes/:na]
+	at com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77) [classes/:na]
+	at com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97) [classes/:na]
+	at com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150) [classes/:na]
+	at io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+2018-10-24 17:01:37.981 [nettyDefaultEventExecutorGroup-2-2] ERROR c.n.b.e.h.room.JoinRoomHandler - 加入房间出错:13,{}
+com.net.server.exceptions.GameException: 房间不存在
+	at com.net.business.extensions.handler.room.JoinRoomHandler.handleClientRequest(JoinRoomHandler.java:28) ~[classes/:na]
+	at com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77) [classes/:na]
+	at com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97) [classes/:na]
+	at com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150) [classes/:na]
+	at io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+2018-10-24 17:40:43.085 [nettyDefaultEventExecutorGroup-2-2] ERROR c.n.b.e.h.room.JoinRoomHandler - 加入房间出错:13,{}
+com.net.server.exceptions.GameException: 房间不存在
+	at com.net.business.extensions.handler.room.JoinRoomHandler.handleClientRequest(JoinRoomHandler.java:27) ~[classes/:na]
+	at com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77) [classes/:na]
+	at com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97) [classes/:na]
+	at com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150) [classes/:na]
+	at io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+2018-10-24 17:54:27.931 [nettyDefaultEventExecutorGroup-2-2] ERROR c.n.b.e.h.room.JoinRoomHandler - 加入房间出错:13,{}
+com.net.server.exceptions.GameException: 房间不存在
+	at com.net.business.extensions.handler.room.JoinRoomHandler.handleClientRequest(JoinRoomHandler.java:27) ~[classes/:na]
+	at com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77) [classes/:na]
+	at com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97) [classes/:na]
+	at com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150) [classes/:na]
+	at io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+2018-10-24 19:21:06.945 [nettyDefaultEventExecutorGroup-2-2] ERROR c.n.b.e.h.room.JoinRoomHandler - 加入房间出错:13,{}
+com.net.server.exceptions.GameException: 房间不存在
+	at com.net.business.extensions.handler.room.JoinRoomHandler.handleClientRequest(JoinRoomHandler.java:27) ~[classes/:na]
+	at com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77) [classes/:na]
+	at com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97) [classes/:na]
+	at com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150) [classes/:na]
+	at io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+2018-10-24 19:26:26.087 [nettyDefaultEventExecutorGroup-2-2] ERROR c.n.b.e.h.room.JoinRoomHandler - 加入房间出错:13,{}
+com.net.server.exceptions.GameException: 房间不存在
+	at com.net.business.extensions.handler.room.JoinRoomHandler.handleClientRequest(JoinRoomHandler.java:27) ~[classes/:na]
+	at com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77) [classes/:na]
+	at com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97) [classes/:na]
+	at com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150) [classes/:na]
+	at io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+2018-10-24 19:27:10.858 [nettyDefaultEventExecutorGroup-2-3] ERROR c.n.b.e.h.room.JoinRoomHandler - 加入房间出错:2,{}
+com.net.server.exceptions.GameException: 房间不存在
+	at com.net.business.extensions.handler.room.JoinRoomHandler.handleClientRequest(JoinRoomHandler.java:27) ~[classes/:na]
+	at com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77) [classes/:na]
+	at com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97) [classes/:na]
+	at com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150) [classes/:na]
+	at io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+2018-10-24 20:43:12.756 [nettyDefaultEventExecutorGroup-2-2] ERROR c.n.b.e.h.room.JoinRoomHandler - 加入房间出错:13,{}
+com.net.server.exceptions.GameException: 房间不存在
+	at com.net.business.extensions.handler.room.JoinRoomHandler.handleClientRequest(JoinRoomHandler.java:27) ~[classes/:na]
+	at com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77) [classes/:na]
+	at com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97) [classes/:na]
+	at com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150) [classes/:na]
+	at io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+2018-10-24 20:43:15.284 [nettyDefaultEventExecutorGroup-2-2] ERROR c.n.b.e.h.room.JoinRoomHandler - 加入房间出错:13,{}
+com.net.server.exceptions.GameException: 房间不存在
+	at com.net.business.extensions.handler.room.JoinRoomHandler.handleClientRequest(JoinRoomHandler.java:27) ~[classes/:na]
+	at com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77) [classes/:na]
+	at com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97) [classes/:na]
+	at com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150) [classes/:na]
+	at io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+2018-10-24 20:53:17.732 [nettyDefaultEventExecutorGroup-2-2] ERROR c.n.b.e.h.room.JoinRoomHandler - 加入房间出错:13,{}
+com.net.server.exceptions.GameException: 房间不存在
+	at com.net.business.extensions.handler.room.JoinRoomHandler.handleClientRequest(JoinRoomHandler.java:27) ~[classes/:na]
+	at com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77) [classes/:na]
+	at com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97) [classes/:na]
+	at com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150) [classes/:na]
+	at io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+2018-10-24 21:44:07.266 [nettyDefaultEventExecutorGroup-2-3] ERROR c.n.b.e.h.room.JoinRoomHandler - 加入房间出错:2,{}
+com.net.server.exceptions.GameException: 房间不存在
+	at com.net.business.extensions.handler.room.JoinRoomHandler.handleClientRequest(JoinRoomHandler.java:27) ~[classes/:na]
+	at com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77) [classes/:na]
+	at com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97) [classes/:na]
+	at com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150) [classes/:na]
+	at io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]

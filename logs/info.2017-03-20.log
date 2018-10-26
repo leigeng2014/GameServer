@@ -1,0 +1,386 @@
+2017-03-20 10:35:41.730 [main] INFO  com.net.server.GameServer - Boot sequence starts...
+2017-03-20 10:35:43.366 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-03-20 10:35:43.835 [main] INFO  com.net.server.GameServer - init spring container success. 
+2017-03-20 10:35:43.927 [main] INFO  c.n.s.config.DefaultConfigLoader - Loading: config/core.xml
+2017-03-20 10:35:44.245 [main] INFO  com.net.server.core.SFSEventManager -  initalized
+2017-03-20 10:35:44.281 [main] INFO  com.net.server.GameServer - Protocol Type is: BINARY
+2017-03-20 10:35:44.282 [main] INFO  c.n.s.config.DefaultConfigLoader - Loading: zones\BasicExamples.zone.xml
+2017-03-20 10:35:44.369 [main] INFO  com.net.engine.core.NetEngine - NetWorkServer 1X
+2017-03-20 10:35:44.379 [main] INFO  com.net.engine.core.NetEngine - BitSwarmEngine version: 3.30.1 { main }
+2017-03-20 10:35:44.381 [main] INFO  com.net.engine.core.NetEngine - System Info:
+	Processor(s): 8
+	VM Max. memory: 1895MB
+	os.name: Windows 7
+	os.arch: amd64
+	os.version: 6.1
+	java.version: 1.8.0_60
+	java.vendor: Oracle Corporation
+	java.vendor.url: http://java.oracle.com/
+	java.vm.specification.version: 1.8
+	java.vm.version: 25.60-b23
+	java.vm.vendor: Oracle Corporation
+	java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+	java.io.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp\
+	Default charset: UTF-8
+
+2017-03-20 10:35:44.415 [main] INFO  com.net.engine.core.NetEngine - Network Info:
+	Card: Software Loopback Interface 1
+		 ->127.0.0.1
+		 ->0:0:0:0:0:0:0:1
+	Card: WAN Miniport (SSTP)
+	Card: WAN Miniport (L2TP)
+	Card: WAN Miniport (PPTP)
+	Card: WAN Miniport (PPPOE)
+	Card: WAN Miniport (IPv6)
+	Card: WAN Miniport (Network Monitor)
+	Card: WAN Miniport (IP)
+	Card: RAS Async Adapter
+	Card: WAN Miniport (IKEv2)
+	Card: Microsoft Teredo Tunneling Adapter
+		 ->fe80:0:0:0:0:100:7f:fffe%net4
+	Card: Intel(R) Ethernet Connection I217-V
+		 ->192.168.1.114
+		 ->fe80:0:0:0:8c3e:fb68:1e96:e9ff%eth3
+	Card: Realtek RTL8192EU Wireless LAN 802.11n USB 2.0 Network Adapter
+	Card: Realtek RTL8188EU Wireless LAN 802.11n USB 2.0 Network Adapter
+	Card: Microsoft ISATAP Adapter
+		 ->fe80:0:0:0:0:5efe:c0a8:172%net5
+	Card: Intel(R) Ethernet Connection I217-V-QoS Packet Scheduler-0000
+	Card: Intel(R) Ethernet Connection I217-V-WFP LightWeight Filter-0000
+	Card: WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000
+	Card: WAN Miniport (IP)-QoS Packet Scheduler-0000
+	Card: WAN Miniport (IPv6)-QoS Packet Scheduler-0000
+
+2017-03-20 10:35:44.442 [main] INFO  com.net.engine.core.NetEngine - Session manager ready: com.net.engine.sessions.DefaultSessionManager@4a23350
+2017-03-20 10:35:44.758 [main] INFO  bootLogger - Controller started: com.net.server.controllers.SystemReqController 
+2017-03-20 10:35:44.758 [Scheduler1-thread-1] INFO  bootLogger - Scheduler started: scheduler
+2017-03-20 10:35:44.758 [main] INFO  bootLogger - Controller started: com.net.server.controllers.ExtensionReqController 
+2017-03-20 10:35:44.793 [main] INFO  bootLogger - WebSocket服务已启动:127.0.0.1:8888
+2017-03-20 10:35:44.793 [main] INFO  bootLogger - Socket Writer started (pool size:1)
+2017-03-20 10:35:44.813 [main] INFO  bootLogger - Security Manager started
+2017-03-20 10:35:44.818 [main] INFO  com.net.engine.core.NetEngine - [[[ ===--- Boot sequence complete ---=== ]]]
+2017-03-20 10:35:44.821 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.GameServer - Listening Sockets: { 127.0.0.1:8888 (WebSocket) }
+2017-03-20 10:35:44.822 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.GameServer - SmartFoxServer 2X (1.0.0) READY!
+2017-03-20 10:35:44.964 [nettyDefaultEventExecutorGroup-2-3] INFO  c.n.b.basedata.BaseDataManager - ==============加载静态数据成功===============
+2017-03-20 10:36:06.630 [nioEventLoopGroup-4-1] INFO  c.n.e.s.DefaultSessionManager - Session created: { Id: 1, Type: DEFAULT, Logged: No, IP: 27.0.0.1/127.0.0.1:55027 } on Server port: 9934 <---> 55027
+2017-03-20 10:43:19.505 [nettyDefaultEventExecutorGroup-2-4] INFO  com.net.server.entities.GameZone - 用户{0}登录成功
+2017-03-20 10:43:19.506 [nettyDefaultEventExecutorGroup-2-4] INFO  com.net.server.api.GameApi - User login: ( User Name: 游客301143, Id: 301143, Priv: 0, Sess:  ) 
+2017-03-20 10:43:20.530 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.entities.GameZone - 用户{0}登录成功
+2017-03-20 10:43:20.530 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.api.GameApi - User login: ( User Name: 游客301148, Id: 301148, Priv: 0, Sess:  ) 
+2017-03-20 10:43:22.154 [nettyDefaultEventExecutorGroup-2-4] INFO  com.net.server.entities.GameZone - 用户{0}登录成功
+2017-03-20 10:43:22.154 [nettyDefaultEventExecutorGroup-2-4] INFO  com.net.server.api.GameApi - User login: ( User Name: 游客301149, Id: 301149, Priv: 0, Sess:  ) 
+2017-03-20 10:43:23.815 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.entities.GameZone - 用户{0}登录成功
+2017-03-20 10:43:23.815 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.api.GameApi - User login: ( User Name: 游客301150, Id: 301150, Priv: 0, Sess:  ) 
+2017-03-20 10:43:34.867 [nettyDefaultEventExecutorGroup-2-4] INFO  c.n.s.e.managers.GameRoomManager - Room created: com.net.server.entities.GameZone@10c5ac73, [ Room: 好友房9504532, Id: 9504532, Group: default, isGame: false ]
+2017-03-20 10:43:34.878 [nettyDefaultEventExecutorGroup-2-4] INFO  com.net.server.api.GameApi - Room joined: [ Room: 好友房9504532, Id: 9504532, Group: default, isGame: false ], ( User Name: 游客301143, Id: 301143, Priv: 0, Sess:  ) , asSpect: false
+2017-03-20 10:43:46.176 [nettyDefaultEventExecutorGroup-2-1] INFO  com.net.server.api.GameApi - Room joined: [ Room: 好友房9504532, Id: 9504532, Group: default, isGame: false ], ( User Name: 游客301148, Id: 301148, Priv: 0, Sess:  ) , asSpect: false
+2017-03-20 10:43:49.824 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.api.GameApi - Room joined: [ Room: 好友房9504532, Id: 9504532, Group: default, isGame: false ], ( User Name: 游客301149, Id: 301149, Priv: 0, Sess:  ) , asSpect: false
+2017-03-20 10:43:57.180 [nettyDefaultEventExecutorGroup-2-3] INFO  com.net.server.api.GameApi - Room joined: [ Room: 好友房9504532, Id: 9504532, Group: default, isGame: false ], ( User Name: 游客301150, Id: 301150, Priv: 0, Sess:  ) , asSpect: false
+2017-03-20 10:44:07.714 [nettyDefaultEventExecutorGroup-2-1] INFO  c.n.s.e.managers.GameRoomManager - Cannot remove room: 好友房9504532 from it's group: default. The group was not found.
+2017-03-20 10:44:07.714 [nettyDefaultEventExecutorGroup-2-1] INFO  c.n.s.e.managers.GameRoomManager - Room removed: com.net.server.entities.GameZone@10c5ac73, [ Room: 好友房9504532, Id: 9504532, Group: default, isGame: false ], Duration: 32861
+2017-03-20 10:44:25.221 [nioEventLoopGroup-4-1] INFO  c.n.e.s.DefaultSessionManager - Session removed: { Id: 1, Type: DEFAULT, Logged: No, IP: 27.0.0.1/127.0.0.1:55027 }
+2017-03-20 10:44:38.961 [main] INFO  com.net.server.GameServer - Boot sequence starts...
+2017-03-20 10:44:39.768 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-03-20 10:44:40.101 [main] INFO  com.net.server.GameServer - init spring container success. 
+2017-03-20 10:44:40.105 [main] INFO  c.n.s.config.DefaultConfigLoader - Loading: config/core.xml
+2017-03-20 10:44:40.351 [main] INFO  com.net.server.core.SFSEventManager -  initalized
+2017-03-20 10:44:40.364 [main] INFO  com.net.server.GameServer - Protocol Type is: BINARY
+2017-03-20 10:44:40.364 [main] INFO  c.n.s.config.DefaultConfigLoader - Loading: zones\BasicExamples.zone.xml
+2017-03-20 10:44:40.375 [main] INFO  com.net.engine.core.NetEngine - NetWorkServer 1X
+2017-03-20 10:44:40.376 [main] INFO  com.net.engine.core.NetEngine - BitSwarmEngine version: 3.30.1 { main }
+2017-03-20 10:44:40.377 [main] INFO  com.net.engine.core.NetEngine - System Info:
+	Processor(s): 8
+	VM Max. memory: 1895MB
+	os.name: Windows 7
+	os.arch: amd64
+	os.version: 6.1
+	java.version: 1.8.0_60
+	java.vendor: Oracle Corporation
+	java.vendor.url: http://java.oracle.com/
+	java.vm.specification.version: 1.8
+	java.vm.version: 25.60-b23
+	java.vm.vendor: Oracle Corporation
+	java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+	java.io.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp\
+	Default charset: UTF-8
+
+2017-03-20 10:44:40.416 [main] INFO  com.net.engine.core.NetEngine - Network Info:
+	Card: Software Loopback Interface 1
+		 ->127.0.0.1
+		 ->0:0:0:0:0:0:0:1
+	Card: WAN Miniport (SSTP)
+	Card: WAN Miniport (L2TP)
+	Card: WAN Miniport (PPTP)
+	Card: WAN Miniport (PPPOE)
+	Card: WAN Miniport (IPv6)
+	Card: WAN Miniport (Network Monitor)
+	Card: WAN Miniport (IP)
+	Card: RAS Async Adapter
+	Card: WAN Miniport (IKEv2)
+	Card: Microsoft Teredo Tunneling Adapter
+		 ->fe80:0:0:0:0:100:7f:fffe%net4
+	Card: Intel(R) Ethernet Connection I217-V
+		 ->192.168.1.114
+		 ->fe80:0:0:0:8c3e:fb68:1e96:e9ff%eth3
+	Card: Realtek RTL8192EU Wireless LAN 802.11n USB 2.0 Network Adapter
+	Card: Realtek RTL8188EU Wireless LAN 802.11n USB 2.0 Network Adapter
+	Card: Microsoft ISATAP Adapter
+		 ->fe80:0:0:0:0:5efe:c0a8:172%net5
+	Card: Intel(R) Ethernet Connection I217-V-QoS Packet Scheduler-0000
+	Card: Intel(R) Ethernet Connection I217-V-WFP LightWeight Filter-0000
+	Card: WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000
+	Card: WAN Miniport (IP)-QoS Packet Scheduler-0000
+	Card: WAN Miniport (IPv6)-QoS Packet Scheduler-0000
+
+2017-03-20 10:44:40.419 [main] INFO  com.net.engine.core.NetEngine - Session manager ready: com.net.engine.sessions.DefaultSessionManager@451882b2
+2017-03-20 10:44:40.591 [main] INFO  bootLogger - Controller started: com.net.server.controllers.SystemReqController 
+2017-03-20 10:44:40.592 [Scheduler1-thread-1] INFO  bootLogger - Scheduler started: scheduler
+2017-03-20 10:44:40.592 [main] INFO  bootLogger - Controller started: com.net.server.controllers.ExtensionReqController 
+2017-03-20 10:44:40.619 [main] INFO  bootLogger - WebSocket服务已启动:127.0.0.1:8888
+2017-03-20 10:44:40.619 [main] INFO  bootLogger - Socket Writer started (pool size:1)
+2017-03-20 10:44:40.620 [main] INFO  bootLogger - Security Manager started
+2017-03-20 10:44:40.621 [main] INFO  com.net.engine.core.NetEngine - [[[ ===--- Boot sequence complete ---=== ]]]
+2017-03-20 10:44:40.622 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.GameServer - Listening Sockets: { 127.0.0.1:8888 (WebSocket) }
+2017-03-20 10:44:40.623 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.GameServer - SmartFoxServer 2X (1.0.0) READY!
+2017-03-20 10:44:40.711 [nettyDefaultEventExecutorGroup-2-3] INFO  c.n.b.basedata.BaseDataManager - ==============加载静态数据成功===============
+2017-03-20 10:44:44.008 [nioEventLoopGroup-4-1] INFO  c.n.e.s.DefaultSessionManager - Session created: { Id: 1, Type: DEFAULT, Logged: No, IP: 27.0.0.1/127.0.0.1:55490 } on Server port: 9934 <---> 55490
+2017-03-20 10:46:11.221 [nettyDefaultEventExecutorGroup-2-4] INFO  com.net.server.entities.GameZone - 用户{0}登录成功
+2017-03-20 10:46:11.223 [nettyDefaultEventExecutorGroup-2-4] INFO  com.net.server.api.GameApi - User login: ( User Name: 游客301143, Id: 301143, Priv: 0, Sess:  ) 
+2017-03-20 10:46:12.549 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.entities.GameZone - 用户{0}登录成功
+2017-03-20 10:46:12.549 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.api.GameApi - User login: ( User Name: 游客301148, Id: 301148, Priv: 0, Sess:  ) 
+2017-03-20 10:46:13.943 [nettyDefaultEventExecutorGroup-2-4] INFO  com.net.server.entities.GameZone - 用户{0}登录成功
+2017-03-20 10:46:13.943 [nettyDefaultEventExecutorGroup-2-4] INFO  com.net.server.api.GameApi - User login: ( User Name: 游客301149, Id: 301149, Priv: 0, Sess:  ) 
+2017-03-20 10:46:15.174 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.entities.GameZone - 用户{0}登录成功
+2017-03-20 10:46:15.175 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.api.GameApi - User login: ( User Name: 游客301150, Id: 301150, Priv: 0, Sess:  ) 
+2017-03-20 10:46:22.465 [nettyDefaultEventExecutorGroup-2-4] INFO  c.n.s.e.managers.GameRoomManager - Room created: com.net.server.entities.GameZone@6d8ebf2e, [ Room: 好友房2420422, Id: 2420422, Group: default, isGame: false ]
+2017-03-20 10:46:22.466 [nettyDefaultEventExecutorGroup-2-4] INFO  com.net.server.api.GameApi - Room joined: [ Room: 好友房2420422, Id: 2420422, Group: default, isGame: false ], ( User Name: 游客301143, Id: 301143, Priv: 0, Sess:  ) , asSpect: false
+2017-03-20 10:46:33.484 [nettyDefaultEventExecutorGroup-2-1] INFO  com.net.server.api.GameApi - Room joined: [ Room: 好友房2420422, Id: 2420422, Group: default, isGame: false ], ( User Name: 游客301148, Id: 301148, Priv: 0, Sess:  ) , asSpect: false
+2017-03-20 10:46:40.723 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.api.GameApi - Room joined: [ Room: 好友房2420422, Id: 2420422, Group: default, isGame: false ], ( User Name: 游客301149, Id: 301149, Priv: 0, Sess:  ) , asSpect: false
+2017-03-20 10:46:47.745 [nettyDefaultEventExecutorGroup-2-3] INFO  com.net.server.api.GameApi - Room joined: [ Room: 好友房2420422, Id: 2420422, Group: default, isGame: false ], ( User Name: 游客301150, Id: 301150, Priv: 0, Sess:  ) , asSpect: false
+2017-03-20 10:49:39.767 [nettyDefaultEventExecutorGroup-2-3] INFO  c.n.s.e.managers.GameRoomManager - Cannot remove room: 好友房2420422 from it's group: default. The group was not found.
+2017-03-20 10:49:39.767 [nettyDefaultEventExecutorGroup-2-3] INFO  c.n.s.e.managers.GameRoomManager - Room removed: com.net.server.entities.GameZone@6d8ebf2e, [ Room: 好友房2420422, Id: 2420422, Group: default, isGame: false ], Duration: 197303
+2017-03-20 10:49:39.767 [nettyDefaultEventExecutorGroup-2-3] INFO  c.n.s.e.managers.GameRoomManager - Cannot remove room: 好友房2420422 from it's group: default. The group was not found.
+2017-03-20 10:49:39.768 [nettyDefaultEventExecutorGroup-2-3] INFO  c.n.s.e.managers.GameRoomManager - Room removed: com.net.server.entities.GameZone@6d8ebf2e, [ Room: 好友房2420422, Id: 2420422, Group: default, isGame: false ], Duration: 197303
+2017-03-20 10:49:42.260 [nettyDefaultEventExecutorGroup-2-4] INFO  c.n.s.e.managers.GameRoomManager - Room created: com.net.server.entities.GameZone@6d8ebf2e, [ Room: 匹配房6942609, Id: 6942609, Group: default, isGame: false ]
+2017-03-20 10:49:42.260 [nettyDefaultEventExecutorGroup-2-4] INFO  com.net.server.api.GameApi - Room joined: [ Room: 匹配房6942609, Id: 6942609, Group: default, isGame: false ], ( User Name: 游客301143, Id: 301143, Priv: 0, Sess:  ) , asSpect: false
+2017-03-20 10:49:44.496 [nettyDefaultEventExecutorGroup-2-1] INFO  com.net.server.api.GameApi - Room joined: [ Room: 匹配房6942609, Id: 6942609, Group: default, isGame: false ], ( User Name: 游客301148, Id: 301148, Priv: 0, Sess:  ) , asSpect: false
+2017-03-20 10:49:46.769 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.api.GameApi - Room joined: [ Room: 匹配房6942609, Id: 6942609, Group: default, isGame: false ], ( User Name: 游客301149, Id: 301149, Priv: 0, Sess:  ) , asSpect: false
+2017-03-20 10:49:48.657 [nettyDefaultEventExecutorGroup-2-3] INFO  com.net.server.api.GameApi - Room joined: [ Room: 匹配房6942609, Id: 6942609, Group: default, isGame: false ], ( User Name: 游客301150, Id: 301150, Priv: 0, Sess:  ) , asSpect: false
+2017-03-20 10:54:06.754 [nettyDefaultEventExecutorGroup-2-2] INFO  c.n.s.e.managers.GameRoomManager - Cannot remove room: 匹配房6942609 from it's group: default. The group was not found.
+2017-03-20 10:54:06.754 [nettyDefaultEventExecutorGroup-2-2] INFO  c.n.s.e.managers.GameRoomManager - Room removed: com.net.server.entities.GameZone@6d8ebf2e, [ Room: 匹配房6942609, Id: 6942609, Group: default, isGame: false ], Duration: 264494
+2017-03-20 10:54:06.754 [nettyDefaultEventExecutorGroup-2-2] INFO  c.n.s.e.managers.GameRoomManager - Cannot remove room: 匹配房6942609 from it's group: default. The group was not found.
+2017-03-20 10:54:06.754 [nettyDefaultEventExecutorGroup-2-2] INFO  c.n.s.e.managers.GameRoomManager - Room removed: com.net.server.entities.GameZone@6d8ebf2e, [ Room: 匹配房6942609, Id: 6942609, Group: default, isGame: false ], Duration: 264494
+2017-03-20 11:00:41.204 [nettyDefaultEventExecutorGroup-2-4] INFO  com.net.server.entities.GameZone - 用户{0}登录成功
+2017-03-20 11:00:41.204 [nettyDefaultEventExecutorGroup-2-4] INFO  com.net.server.api.GameApi - User login: ( User Name: Star, Id: 301140, Priv: 0, Sess:  ) 
+2017-03-20 11:08:49.535 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.entities.GameZone - 用户{0}登录成功
+2017-03-20 11:08:49.535 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.api.GameApi - User login: ( User Name: Star, Id: 301140, Priv: 0, Sess:  ) 
+2017-03-20 11:09:55.473 [nettyDefaultEventExecutorGroup-2-4] INFO  com.net.server.entities.GameZone - 用户{0}登录成功
+2017-03-20 11:09:55.473 [nettyDefaultEventExecutorGroup-2-4] INFO  com.net.server.api.GameApi - User login: ( User Name: 游客301143, Id: 301143, Priv: 0, Sess:  ) 
+2017-03-20 11:10:07.762 [nettyDefaultEventExecutorGroup-2-4] INFO  c.n.s.e.managers.GameRoomManager - Room created: com.net.server.entities.GameZone@6d8ebf2e, [ Room: 匹配房7462301, Id: 7462301, Group: default, isGame: false ]
+2017-03-20 11:10:07.762 [nettyDefaultEventExecutorGroup-2-4] INFO  com.net.server.api.GameApi - Room joined: [ Room: 匹配房7462301, Id: 7462301, Group: default, isGame: false ], ( User Name: 游客301143, Id: 301143, Priv: 0, Sess:  ) , asSpect: false
+2017-03-20 11:10:24.969 [nettyDefaultEventExecutorGroup-2-1] INFO  com.net.server.api.GameApi - Room joined: [ Room: 匹配房7462301, Id: 7462301, Group: default, isGame: false ], ( User Name: 游客301148, Id: 301148, Priv: 0, Sess:  ) , asSpect: false
+2017-03-20 11:10:26.705 [nettyDefaultEventExecutorGroup-2-3] INFO  com.net.server.api.GameApi - Room joined: [ Room: 匹配房7462301, Id: 7462301, Group: default, isGame: false ], ( User Name: 游客301150, Id: 301150, Priv: 0, Sess:  ) , asSpect: false
+2017-03-20 11:10:28.429 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.api.GameApi - Room joined: [ Room: 匹配房7462301, Id: 7462301, Group: default, isGame: false ], ( User Name: 游客301149, Id: 301149, Priv: 0, Sess:  ) , asSpect: false
+2017-03-20 11:28:48.879 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.entities.GameZone - 用户{0}登录成功
+2017-03-20 11:28:48.879 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.api.GameApi - User login: ( User Name: 游客301143, Id: 301143, Priv: 0, Sess:  ) 
+2017-03-20 11:28:50.191 [nettyDefaultEventExecutorGroup-2-4] INFO  com.net.server.entities.GameZone - 用户{0}登录成功
+2017-03-20 11:28:50.192 [nettyDefaultEventExecutorGroup-2-4] INFO  com.net.server.api.GameApi - User login: ( User Name: 游客301148, Id: 301148, Priv: 0, Sess:  ) 
+2017-03-20 11:28:51.780 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.entities.GameZone - 用户{0}登录成功
+2017-03-20 11:28:51.780 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.api.GameApi - User login: ( User Name: 游客301149, Id: 301149, Priv: 0, Sess:  ) 
+2017-03-20 11:28:53.063 [nettyDefaultEventExecutorGroup-2-4] INFO  com.net.server.entities.GameZone - 用户{0}登录成功
+2017-03-20 11:28:53.064 [nettyDefaultEventExecutorGroup-2-4] INFO  com.net.server.api.GameApi - User login: ( User Name: 游客301150, Id: 301150, Priv: 0, Sess:  ) 
+2017-03-20 11:28:57.032 [nettyDefaultEventExecutorGroup-2-2] INFO  c.n.s.e.managers.GameRoomManager - Cannot remove room: 匹配房7462301 from it's group: default. The group was not found.
+2017-03-20 11:28:57.033 [nettyDefaultEventExecutorGroup-2-2] INFO  c.n.s.e.managers.GameRoomManager - Room removed: com.net.server.entities.GameZone@6d8ebf2e, [ Room: 匹配房7462301, Id: 7462301, Group: default, isGame: false ], Duration: 1129270
+2017-03-20 11:28:57.033 [nettyDefaultEventExecutorGroup-2-2] INFO  c.n.s.e.managers.GameRoomManager - Cannot remove room: 匹配房7462301 from it's group: default. The group was not found.
+2017-03-20 11:28:57.033 [nettyDefaultEventExecutorGroup-2-2] INFO  c.n.s.e.managers.GameRoomManager - Room removed: com.net.server.entities.GameZone@6d8ebf2e, [ Room: 匹配房7462301, Id: 7462301, Group: default, isGame: false ], Duration: 1129271
+2017-03-20 14:02:52.240 [nettyDefaultEventExecutorGroup-2-4] INFO  com.net.server.entities.GameZone - 用户{0}登录成功
+2017-03-20 14:02:52.240 [nettyDefaultEventExecutorGroup-2-4] INFO  com.net.server.api.GameApi - User login: ( User Name: 游客301148, Id: 301148, Priv: 0, Sess:  ) 
+2017-03-20 14:02:53.441 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.entities.GameZone - 用户{0}登录成功
+2017-03-20 14:02:53.441 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.api.GameApi - User login: ( User Name: 游客301149, Id: 301149, Priv: 0, Sess:  ) 
+2017-03-20 14:02:55.721 [nettyDefaultEventExecutorGroup-2-4] INFO  com.net.server.entities.GameZone - 用户{0}登录成功
+2017-03-20 14:02:55.721 [nettyDefaultEventExecutorGroup-2-4] INFO  com.net.server.api.GameApi - User login: ( User Name: 游客301150, Id: 301150, Priv: 0, Sess:  ) 
+2017-03-20 14:04:07.271 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.entities.GameZone - 用户{0}登录成功
+2017-03-20 14:04:07.271 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.api.GameApi - User login: ( User Name: 游客301143, Id: 301143, Priv: 0, Sess:  ) 
+2017-03-20 14:04:15.798 [nettyDefaultEventExecutorGroup-2-4] INFO  c.n.s.e.managers.GameRoomManager - Room created: com.net.server.entities.GameZone@6d8ebf2e, [ Room: 好友房2251831, Id: 2251831, Group: default, isGame: false ]
+2017-03-20 14:04:15.798 [nettyDefaultEventExecutorGroup-2-4] INFO  com.net.server.api.GameApi - Room joined: [ Room: 好友房2251831, Id: 2251831, Group: default, isGame: false ], ( User Name: 游客301143, Id: 301143, Priv: 0, Sess:  ) , asSpect: false
+2017-03-20 14:04:25.291 [nettyDefaultEventExecutorGroup-2-1] INFO  com.net.server.api.GameApi - Room joined: [ Room: 好友房2251831, Id: 2251831, Group: default, isGame: false ], ( User Name: 游客301148, Id: 301148, Priv: 0, Sess:  ) , asSpect: false
+2017-03-20 14:04:30.218 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.api.GameApi - Room joined: [ Room: 好友房2251831, Id: 2251831, Group: default, isGame: false ], ( User Name: 游客301149, Id: 301149, Priv: 0, Sess:  ) , asSpect: false
+2017-03-20 14:04:33.808 [nettyDefaultEventExecutorGroup-2-3] INFO  com.net.server.api.GameApi - Room joined: [ Room: 好友房2251831, Id: 2251831, Group: default, isGame: false ], ( User Name: 游客301150, Id: 301150, Priv: 0, Sess:  ) , asSpect: false
+2017-03-20 14:06:17.555 [nioEventLoopGroup-4-1] INFO  c.n.e.s.DefaultSessionManager - Session removed: { Id: 1, Type: DEFAULT, Logged: No, IP: 27.0.0.1/127.0.0.1:55490 }
+2017-03-20 14:06:56.144 [main] INFO  com.net.server.GameServer - Boot sequence starts...
+2017-03-20 14:06:57.549 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-03-20 14:06:57.978 [main] INFO  com.net.server.GameServer - init spring container success. 
+2017-03-20 14:06:58.065 [main] INFO  c.n.s.config.DefaultConfigLoader - Loading: config/core.xml
+2017-03-20 14:06:58.378 [main] INFO  com.net.server.core.SFSEventManager -  initalized
+2017-03-20 14:06:58.419 [main] INFO  com.net.server.GameServer - Protocol Type is: BINARY
+2017-03-20 14:06:58.419 [main] INFO  c.n.s.config.DefaultConfigLoader - Loading: zones\BasicExamples.zone.xml
+2017-03-20 14:06:58.489 [main] INFO  com.net.engine.core.NetEngine - NetWorkServer 1X
+2017-03-20 14:06:58.500 [main] INFO  com.net.engine.core.NetEngine - BitSwarmEngine version: 3.30.1 { main }
+2017-03-20 14:06:58.501 [main] INFO  com.net.engine.core.NetEngine - System Info:
+	Processor(s): 8
+	VM Max. memory: 1895MB
+	os.name: Windows 7
+	os.arch: amd64
+	os.version: 6.1
+	java.version: 1.8.0_60
+	java.vendor: Oracle Corporation
+	java.vendor.url: http://java.oracle.com/
+	java.vm.specification.version: 1.8
+	java.vm.version: 25.60-b23
+	java.vm.vendor: Oracle Corporation
+	java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+	java.io.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp\
+	Default charset: UTF-8
+
+2017-03-20 14:06:58.536 [main] INFO  com.net.engine.core.NetEngine - Network Info:
+	Card: Software Loopback Interface 1
+		 ->127.0.0.1
+		 ->0:0:0:0:0:0:0:1
+	Card: WAN Miniport (SSTP)
+	Card: WAN Miniport (L2TP)
+	Card: WAN Miniport (PPTP)
+	Card: WAN Miniport (PPPOE)
+	Card: WAN Miniport (IPv6)
+	Card: WAN Miniport (Network Monitor)
+	Card: WAN Miniport (IP)
+	Card: RAS Async Adapter
+	Card: WAN Miniport (IKEv2)
+	Card: Microsoft Teredo Tunneling Adapter
+		 ->2001:0:9d38:6ab8:384b:cbd9:95a8:f972
+		 ->fe80:0:0:0:384b:cbd9:95a8:f972%net4
+	Card: Intel(R) Ethernet Connection I217-V
+		 ->192.168.1.114
+		 ->fe80:0:0:0:8c3e:fb68:1e96:e9ff%eth3
+	Card: Realtek RTL8192EU Wireless LAN 802.11n USB 2.0 Network Adapter
+	Card: Realtek RTL8188EU Wireless LAN 802.11n USB 2.0 Network Adapter
+	Card: Microsoft ISATAP Adapter
+		 ->fe80:0:0:0:0:5efe:c0a8:172%net5
+	Card: Intel(R) Ethernet Connection I217-V-QoS Packet Scheduler-0000
+	Card: Intel(R) Ethernet Connection I217-V-WFP LightWeight Filter-0000
+	Card: WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000
+	Card: WAN Miniport (IP)-QoS Packet Scheduler-0000
+	Card: WAN Miniport (IPv6)-QoS Packet Scheduler-0000
+
+2017-03-20 14:06:58.563 [main] INFO  com.net.engine.core.NetEngine - Session manager ready: com.net.engine.sessions.DefaultSessionManager@41f4fe5
+2017-03-20 14:06:58.822 [Scheduler1-thread-1] INFO  bootLogger - Scheduler started: scheduler
+2017-03-20 14:06:58.822 [main] INFO  bootLogger - Controller started: com.net.server.controllers.SystemReqController 
+2017-03-20 14:06:58.823 [main] INFO  bootLogger - Controller started: com.net.server.controllers.ExtensionReqController 
+2017-03-20 14:06:58.855 [main] INFO  bootLogger - WebSocket服务已启动:127.0.0.1:8888
+2017-03-20 14:06:58.855 [main] INFO  bootLogger - Socket Writer started (pool size:1)
+2017-03-20 14:06:58.884 [main] INFO  bootLogger - Security Manager started
+2017-03-20 14:06:58.888 [main] INFO  com.net.engine.core.NetEngine - [[[ ===--- Boot sequence complete ---=== ]]]
+2017-03-20 14:06:58.900 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.GameServer - Listening Sockets: { 127.0.0.1:8888 (WebSocket) }
+2017-03-20 14:06:58.900 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.GameServer - SmartFoxServer 2X (1.0.0) READY!
+2017-03-20 14:06:59.002 [nettyDefaultEventExecutorGroup-2-3] INFO  c.n.b.basedata.BaseDataManager - ==============加载静态数据成功===============
+2017-03-20 14:07:07.553 [nioEventLoopGroup-4-1] INFO  c.n.e.s.DefaultSessionManager - Session created: { Id: 1, Type: DEFAULT, Logged: No, IP: 27.0.0.1/127.0.0.1:53459 } on Server port: 9934 <---> 53459
+2017-03-20 14:07:59.030 [main] INFO  com.net.server.GameServer - Boot sequence starts...
+2017-03-20 14:07:59.896 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-03-20 14:08:00.286 [main] INFO  com.net.server.GameServer - init spring container success. 
+2017-03-20 14:08:00.293 [main] INFO  c.n.s.config.DefaultConfigLoader - Loading: config/core.xml
+2017-03-20 14:08:00.518 [main] INFO  com.net.server.core.SFSEventManager -  initalized
+2017-03-20 14:08:00.532 [main] INFO  com.net.server.GameServer - Protocol Type is: BINARY
+2017-03-20 14:08:00.533 [main] INFO  c.n.s.config.DefaultConfigLoader - Loading: zones\BasicExamples.zone.xml
+2017-03-20 14:08:00.545 [main] INFO  com.net.engine.core.NetEngine - NetWorkServer 1X
+2017-03-20 14:08:00.546 [main] INFO  com.net.engine.core.NetEngine - BitSwarmEngine version: 3.30.1 { main }
+2017-03-20 14:08:00.546 [main] INFO  com.net.engine.core.NetEngine - System Info:
+	Processor(s): 8
+	VM Max. memory: 1895MB
+	os.name: Windows 7
+	os.arch: amd64
+	os.version: 6.1
+	java.version: 1.8.0_60
+	java.vendor: Oracle Corporation
+	java.vendor.url: http://java.oracle.com/
+	java.vm.specification.version: 1.8
+	java.vm.version: 25.60-b23
+	java.vm.vendor: Oracle Corporation
+	java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+	java.io.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp\
+	Default charset: UTF-8
+
+2017-03-20 14:08:00.583 [main] INFO  com.net.engine.core.NetEngine - Network Info:
+	Card: Software Loopback Interface 1
+		 ->127.0.0.1
+		 ->0:0:0:0:0:0:0:1
+	Card: WAN Miniport (SSTP)
+	Card: WAN Miniport (L2TP)
+	Card: WAN Miniport (PPTP)
+	Card: WAN Miniport (PPPOE)
+	Card: WAN Miniport (IPv6)
+	Card: WAN Miniport (Network Monitor)
+	Card: WAN Miniport (IP)
+	Card: RAS Async Adapter
+	Card: WAN Miniport (IKEv2)
+	Card: Microsoft Teredo Tunneling Adapter
+		 ->2001:0:9d38:6ab8:384b:cbd9:95a8:f972
+		 ->fe80:0:0:0:384b:cbd9:95a8:f972%net4
+	Card: Intel(R) Ethernet Connection I217-V
+		 ->192.168.1.114
+		 ->fe80:0:0:0:8c3e:fb68:1e96:e9ff%eth3
+	Card: Realtek RTL8192EU Wireless LAN 802.11n USB 2.0 Network Adapter
+	Card: Realtek RTL8188EU Wireless LAN 802.11n USB 2.0 Network Adapter
+	Card: Microsoft ISATAP Adapter
+		 ->fe80:0:0:0:0:5efe:c0a8:172%net5
+	Card: Intel(R) Ethernet Connection I217-V-QoS Packet Scheduler-0000
+	Card: Intel(R) Ethernet Connection I217-V-WFP LightWeight Filter-0000
+	Card: WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000
+	Card: WAN Miniport (IP)-QoS Packet Scheduler-0000
+	Card: WAN Miniport (IPv6)-QoS Packet Scheduler-0000
+
+2017-03-20 14:08:00.586 [main] INFO  com.net.engine.core.NetEngine - Session manager ready: com.net.engine.sessions.DefaultSessionManager@4a23350
+2017-03-20 14:08:00.768 [main] INFO  bootLogger - Controller started: com.net.server.controllers.SystemReqController 
+2017-03-20 14:08:00.769 [Scheduler1-thread-1] INFO  bootLogger - Scheduler started: scheduler
+2017-03-20 14:08:00.769 [main] INFO  bootLogger - Controller started: com.net.server.controllers.ExtensionReqController 
+2017-03-20 14:08:00.799 [main] INFO  bootLogger - WebSocket服务已启动:127.0.0.1:8888
+2017-03-20 14:08:00.800 [main] INFO  bootLogger - Socket Writer started (pool size:1)
+2017-03-20 14:08:00.801 [main] INFO  bootLogger - Security Manager started
+2017-03-20 14:08:00.803 [main] INFO  com.net.engine.core.NetEngine - [[[ ===--- Boot sequence complete ---=== ]]]
+2017-03-20 14:08:00.805 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.GameServer - Listening Sockets: { 127.0.0.1:8888 (WebSocket) }
+2017-03-20 14:08:00.806 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.GameServer - SmartFoxServer 2X (1.0.0) READY!
+2017-03-20 14:08:00.899 [nettyDefaultEventExecutorGroup-2-3] INFO  c.n.b.basedata.BaseDataManager - ==============加载静态数据成功===============
+2017-03-20 14:08:05.189 [nioEventLoopGroup-4-1] INFO  c.n.e.s.DefaultSessionManager - Session created: { Id: 1, Type: DEFAULT, Logged: No, IP: 27.0.0.1/127.0.0.1:53676 } on Server port: 9934 <---> 53676
+2017-03-20 14:08:19.213 [nettyDefaultEventExecutorGroup-2-4] INFO  com.net.server.entities.GameZone - 用户{0}登录成功
+2017-03-20 14:08:19.215 [nettyDefaultEventExecutorGroup-2-4] INFO  com.net.server.api.GameApi - User login: ( User Name: 游客301148, Id: 301148, Priv: 0, Sess:  ) 
+2017-03-20 14:08:20.316 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.entities.GameZone - 用户{0}登录成功
+2017-03-20 14:08:20.316 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.api.GameApi - User login: ( User Name: 游客301149, Id: 301149, Priv: 0, Sess:  ) 
+2017-03-20 14:08:21.693 [nettyDefaultEventExecutorGroup-2-4] INFO  com.net.server.entities.GameZone - 用户{0}登录成功
+2017-03-20 14:08:21.693 [nettyDefaultEventExecutorGroup-2-4] INFO  com.net.server.api.GameApi - User login: ( User Name: 游客301150, Id: 301150, Priv: 0, Sess:  ) 
+2017-03-20 14:08:33.670 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.entities.GameZone - 用户{0}登录成功
+2017-03-20 14:08:33.670 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.api.GameApi - User login: ( User Name: 游客301143, Id: 301143, Priv: 0, Sess:  ) 
+2017-03-20 14:08:37.518 [nettyDefaultEventExecutorGroup-2-4] INFO  c.n.s.e.managers.GameRoomManager - Room created: com.net.server.entities.GameZone@2c67d8bb, [ Room: 好友房6213046, Id: 6213046, Group: default, isGame: false ]
+2017-03-20 14:08:37.530 [nettyDefaultEventExecutorGroup-2-4] INFO  com.net.server.api.GameApi - Room joined: [ Room: 好友房6213046, Id: 6213046, Group: default, isGame: false ], ( User Name: 游客301143, Id: 301143, Priv: 0, Sess:  ) , asSpect: false
+2017-03-20 14:08:53.072 [nettyDefaultEventExecutorGroup-2-1] INFO  com.net.server.api.GameApi - Room joined: [ Room: 好友房6213046, Id: 6213046, Group: default, isGame: false ], ( User Name: 游客301148, Id: 301148, Priv: 0, Sess:  ) , asSpect: false
+2017-03-20 14:08:57.099 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.api.GameApi - Room joined: [ Room: 好友房6213046, Id: 6213046, Group: default, isGame: false ], ( User Name: 游客301149, Id: 301149, Priv: 0, Sess:  ) , asSpect: false
+2017-03-20 14:09:00.607 [nettyDefaultEventExecutorGroup-2-3] INFO  com.net.server.api.GameApi - Room joined: [ Room: 好友房6213046, Id: 6213046, Group: default, isGame: false ], ( User Name: 游客301150, Id: 301150, Priv: 0, Sess:  ) , asSpect: false
+2017-03-20 14:16:45.821 [nettyDefaultEventExecutorGroup-2-4] INFO  com.net.server.entities.GameZone - 用户{0}登录成功
+2017-03-20 14:16:45.822 [nettyDefaultEventExecutorGroup-2-4] INFO  com.net.server.api.GameApi - User login: ( User Name: 游客301143, Id: 301143, Priv: 0, Sess:  ) 
+2017-03-20 14:16:46.985 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.entities.GameZone - 用户{0}登录成功
+2017-03-20 14:16:46.985 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.api.GameApi - User login: ( User Name: 游客301148, Id: 301148, Priv: 0, Sess:  ) 
+2017-03-20 14:16:48.376 [nettyDefaultEventExecutorGroup-2-4] INFO  com.net.server.entities.GameZone - 用户{0}登录成功
+2017-03-20 14:16:48.376 [nettyDefaultEventExecutorGroup-2-4] INFO  com.net.server.api.GameApi - User login: ( User Name: 游客301149, Id: 301149, Priv: 0, Sess:  ) 
+2017-03-20 14:16:49.999 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.entities.GameZone - 用户{0}登录成功
+2017-03-20 14:16:49.999 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.api.GameApi - User login: ( User Name: 游客301150, Id: 301150, Priv: 0, Sess:  ) 
+2017-03-20 14:20:11.182 [nettyDefaultEventExecutorGroup-2-4] INFO  com.net.server.entities.GameZone - 用户{0}登录成功
+2017-03-20 14:20:11.182 [nettyDefaultEventExecutorGroup-2-4] INFO  com.net.server.api.GameApi - User login: ( User Name: 游客301143, Id: 301143, Priv: 0, Sess:  ) 
+2017-03-20 14:20:13.324 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.entities.GameZone - 用户{0}登录成功
+2017-03-20 14:20:13.324 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.api.GameApi - User login: ( User Name: 游客301148, Id: 301148, Priv: 0, Sess:  ) 
+2017-03-20 14:20:14.926 [nettyDefaultEventExecutorGroup-2-4] INFO  com.net.server.entities.GameZone - 用户{0}登录成功
+2017-03-20 14:20:14.926 [nettyDefaultEventExecutorGroup-2-4] INFO  com.net.server.api.GameApi - User login: ( User Name: 游客301149, Id: 301149, Priv: 0, Sess:  ) 
+2017-03-20 14:20:16.219 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.entities.GameZone - 用户{0}登录成功
+2017-03-20 14:20:16.219 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.api.GameApi - User login: ( User Name: 游客301150, Id: 301150, Priv: 0, Sess:  ) 
+2017-03-20 14:20:46.728 [nettyDefaultEventExecutorGroup-2-4] INFO  com.net.server.entities.GameZone - 用户{0}登录成功
+2017-03-20 14:20:46.728 [nettyDefaultEventExecutorGroup-2-4] INFO  com.net.server.api.GameApi - User login: ( User Name: 游客301143, Id: 301143, Priv: 0, Sess:  ) 
+2017-03-20 14:21:33.697 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.entities.GameZone - 用户{0}登录成功
+2017-03-20 14:21:33.698 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.api.GameApi - User login: ( User Name: 游客301143, Id: 301143, Priv: 0, Sess:  ) 
+2017-03-20 14:22:02.066 [nettyDefaultEventExecutorGroup-2-3] INFO  c.n.s.e.managers.GameRoomManager - Cannot remove room: 好友房6213046 from it's group: default. The group was not found.
+2017-03-20 14:22:02.066 [nettyDefaultEventExecutorGroup-2-3] INFO  c.n.s.e.managers.GameRoomManager - Room removed: com.net.server.entities.GameZone@2c67d8bb, [ Room: 好友房6213046, Id: 6213046, Group: default, isGame: false ], Duration: 804553
+2017-03-20 14:22:02.066 [nettyDefaultEventExecutorGroup-2-3] INFO  c.n.s.e.managers.GameRoomManager - Cannot remove room: 好友房6213046 from it's group: default. The group was not found.
+2017-03-20 14:22:02.066 [nettyDefaultEventExecutorGroup-2-3] INFO  c.n.s.e.managers.GameRoomManager - Room removed: com.net.server.entities.GameZone@2c67d8bb, [ Room: 好友房6213046, Id: 6213046, Group: default, isGame: false ], Duration: 804553
+2017-03-20 14:30:26.317 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.entities.GameZone - 用户{0}登录成功
+2017-03-20 14:30:26.318 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.api.GameApi - User login: ( User Name: 游客301143, Id: 301143, Priv: 0, Sess:  ) 
+2017-03-20 14:32:20.015 [nettyDefaultEventExecutorGroup-2-4] INFO  com.net.server.entities.GameZone - 用户{0}登录成功
+2017-03-20 14:32:20.015 [nettyDefaultEventExecutorGroup-2-4] INFO  com.net.server.api.GameApi - User login: ( User Name: 游客301138, Id: 301138, Priv: 0, Sess:  ) 
+2017-03-20 14:34:46.215 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.entities.GameZone - 用户{0}登录成功
+2017-03-20 14:34:46.215 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.api.GameApi - User login: ( User Name: 游客301143, Id: 301143, Priv: 0, Sess:  ) 
+2017-03-20 14:45:15.028 [nettyDefaultEventExecutorGroup-2-4] INFO  com.net.server.entities.GameZone - 用户{0}登录成功
+2017-03-20 14:45:15.028 [nettyDefaultEventExecutorGroup-2-4] INFO  com.net.server.api.GameApi - User login: ( User Name: 游客301143, Id: 301143, Priv: 0, Sess:  ) 

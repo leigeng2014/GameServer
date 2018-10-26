@@ -1,0 +1,280 @@
+2018-10-09 11:01:33.008 [main] INFO  com.net.server.GameServer - Boot sequence starts...
+2018-10-09 11:01:33.109 [main] INFO  o.s.c.s.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@385e9564: startup date [Tue Oct 09 11:01:33 CST 2018]; root of context hierarchy
+2018-10-09 11:01:33.150 [main] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/applicationContext.xml]
+2018-10-09 11:01:33.468 [main] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/spring-redis.xml]
+2018-10-09 11:01:33.484 [main] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/spring-mongo.xml]
+2018-10-09 11:01:33.661 [main] INFO  o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from class path resource [config.properties]
+2018-10-09 11:01:34.514 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[dds-wz9d2c8d85a85f84-pub.mongodb.rds.aliyuncs.com:3717], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=2000}
+2018-10-09 11:01:34.514 [main] INFO  org.mongodb.driver.cluster - Adding discovered server dds-wz9d2c8d85a85f84-pub.mongodb.rds.aliyuncs.com:3717 to client view of cluster
+2018-10-09 11:01:34.896 [cluster-ClusterId{value='5bbc1a0e643ed31a44521c4a', description='null'}-dds-wz9d2c8d85a85f84-pub.mongodb.rds.aliyuncs.com:3717] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:106946}] to dds-wz9d2c8d85a85f84-pub.mongodb.rds.aliyuncs.com:3717
+2018-10-09 11:01:34.931 [cluster-ClusterId{value='5bbc1a0e643ed31a44521c4a', description='null'}-dds-wz9d2c8d85a85f84-pub.mongodb.rds.aliyuncs.com:3717] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=dds-wz9d2c8d85a85f84-pub.mongodb.rds.aliyuncs.com:3717, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 6]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=33377990}
+2018-10-09 11:01:34.932 [cluster-ClusterId{value='5bbc1a0e643ed31a44521c4a', description='null'}-dds-wz9d2c8d85a85f84-pub.mongodb.rds.aliyuncs.com:3717] INFO  org.mongodb.driver.cluster - Discovered cluster type of STANDALONE
+2018-10-09 11:01:42.397 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-1} inited
+2018-10-09 11:01:42.521 [main] INFO  com.net.server.GameServer - init spring container success. 
+2018-10-09 11:01:42.532 [main] INFO  c.n.s.config.DefaultConfigLoader - Loading: config/core.xml
+2018-10-09 11:01:42.794 [main] INFO  com.net.server.core.SFSEventManager -  initalized
+2018-10-09 11:01:42.833 [main] INFO  com.net.server.GameServer - Protocol Type is: BINARY
+2018-10-09 11:01:42.833 [main] INFO  c.n.s.config.DefaultConfigLoader - Loading: zones\BasicExamples.zone.xml
+2018-10-09 11:01:42.857 [main] INFO  com.net.engine.core.NetEngine - NetWorkServer 1X
+2018-10-09 11:01:42.858 [main] INFO  com.net.engine.core.NetEngine - BitSwarmEngine version: 3.30.1 { main }
+2018-10-09 11:01:42.866 [main] INFO  com.net.engine.core.NetEngine - Session manager ready: com.net.engine.sessions.DefaultSessionManager@67de7a99
+2018-10-09 11:01:43.058 [main] INFO  com.net.engine.core.SocketAcceptor - 成功绑定端口192.168.2.122:9934
+2018-10-09 11:01:43.060 [main] INFO  bootLogger - Controller started: com.net.server.controllers.SystemReqController 
+2018-10-09 11:01:43.061 [Scheduler1-thread-1] INFO  bootLogger - Scheduler started: scheduler
+2018-10-09 11:01:43.061 [main] INFO  bootLogger - Controller started: com.net.server.controllers.ExtensionReqController 
+2018-10-09 11:01:43.062 [main] INFO  bootLogger - Socket Writer started (pool size:1)
+2018-10-09 11:01:43.064 [main] INFO  bootLogger - Security Manager started
+2018-10-09 11:01:43.066 [main] INFO  com.net.engine.core.NetEngine - [[[ ===--- Boot sequence complete ---=== ]]]
+2018-10-09 11:01:43.069 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.GameServer - Listening Sockets: 
+2018-10-09 11:01:43.069 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.GameServer - SmartFoxServer 2X (1.0.0) READY!
+2018-10-09 11:01:43.072 [nettyDefaultEventExecutorGroup-2-3] INFO  c.n.b.basedata.BaseDataManager - ==============加载静态数据成功===============
+2018-10-09 11:01:46.204 [nioEventLoopGroup-4-1] INFO  c.n.e.s.DefaultSessionManager - Session created: { Id: 1, Type: DEFAULT, Logged: No, IP: 27.0.0.1/127.0.0.1:52692 } on Server port: 9934 <---> 52692
+2018-10-09 11:02:00.588 [nettyDefaultEventExecutorGroup-2-4] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:106949}] to dds-wz9d2c8d85a85f84-pub.mongodb.rds.aliyuncs.com:3717
+2018-10-09 11:02:00.703 [nettyDefaultEventExecutorGroup-2-4] INFO  com.net.server.entities.GameZone - 用户{0}登录成功
+2018-10-09 11:02:00.704 [nettyDefaultEventExecutorGroup-2-4] INFO  com.net.server.api.GameApi - User login: ( User Name: 大王, Id: 2, Priv: 0, Sess:  ) 
+2018-10-09 11:02:02.544 [nettyDefaultEventExecutorGroup-2-3] INFO  c.n.s.e.managers.GameRoomManager - Room created: com.net.server.entities.GameZone@5c665087, [ Room: 好友房4520204, Id: 4520204, Group: default, isGame: false ]
+2018-10-09 11:02:02.548 [nettyDefaultEventExecutorGroup-2-3] INFO  com.net.server.api.GameApi - Room joined: [ Room: 好友房4520204, Id: 4520204, Group: default, isGame: false ], ( User Name: 大王, Id: 2, Priv: 0, Sess:  ) , asSpect: false
+2018-10-09 11:02:59.082 [nettyDefaultEventExecutorGroup-2-3] INFO  com.net.server.entities.GameZone - 用户{0}登录成功
+2018-10-09 11:02:59.082 [nettyDefaultEventExecutorGroup-2-3] INFO  com.net.server.api.GameApi - User login: ( User Name: 大王, Id: 2, Priv: 0, Sess:  ) 
+2018-10-09 11:02:59.272 [nettyDefaultEventExecutorGroup-2-1] INFO  c.n.s.e.managers.GameRoomManager - Room created: com.net.server.entities.GameZone@5c665087, [ Room: 好友房1271441, Id: 1271441, Group: default, isGame: false ]
+2018-10-09 11:02:59.273 [nettyDefaultEventExecutorGroup-2-1] INFO  com.net.server.api.GameApi - Room joined: [ Room: 好友房1271441, Id: 1271441, Group: default, isGame: false ], ( User Name: 大王, Id: 2, Priv: 0, Sess:  ) , asSpect: false
+2018-10-09 11:02:59.510 [nettyDefaultEventExecutorGroup-2-1] INFO  c.n.s.e.managers.GameRoomManager - Cannot remove room: 好友房4520204 from it's group: default. The group was not found.
+2018-10-09 11:02:59.513 [nettyDefaultEventExecutorGroup-2-1] INFO  c.n.s.e.managers.GameRoomManager - Room removed: com.net.server.entities.GameZone@5c665087, [ Room: 好友房4520204, Id: 4520204, Group: default, isGame: false ], Duration: 56972
+2018-10-09 11:03:14.582 [nettyDefaultEventExecutorGroup-2-4] INFO  com.net.server.entities.GameZone - 用户{0}登录成功
+2018-10-09 11:03:14.583 [nettyDefaultEventExecutorGroup-2-4] INFO  com.net.server.api.GameApi - User login: ( User Name: 大王, Id: 2, Priv: 0, Sess:  ) 
+2018-10-09 11:03:15.861 [nettyDefaultEventExecutorGroup-2-2] INFO  c.n.s.e.managers.GameRoomManager - Room created: com.net.server.entities.GameZone@5c665087, [ Room: 好友房5428593, Id: 5428593, Group: default, isGame: false ]
+2018-10-09 11:03:15.862 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.api.GameApi - Room joined: [ Room: 好友房5428593, Id: 5428593, Group: default, isGame: false ], ( User Name: 大王, Id: 2, Priv: 0, Sess:  ) , asSpect: false
+2018-10-09 11:03:17.298 [nettyDefaultEventExecutorGroup-2-2] INFO  c.n.s.e.managers.GameRoomManager - Cannot remove room: 好友房1271441 from it's group: default. The group was not found.
+2018-10-09 11:03:17.299 [nettyDefaultEventExecutorGroup-2-2] INFO  c.n.s.e.managers.GameRoomManager - Room removed: com.net.server.entities.GameZone@5c665087, [ Room: 好友房1271441, Id: 1271441, Group: default, isGame: false ], Duration: 18027
+2018-10-09 11:03:37.465 [nettyDefaultEventExecutorGroup-2-1] INFO  com.net.server.entities.GameZone - 用户{0}登录成功
+2018-10-09 11:03:37.467 [nettyDefaultEventExecutorGroup-2-1] INFO  com.net.server.api.GameApi - User login: ( User Name: 大王, Id: 2, Priv: 0, Sess:  ) 
+2018-10-09 11:03:37.473 [nettyDefaultEventExecutorGroup-2-2] INFO  c.n.s.e.managers.GameRoomManager - Room created: com.net.server.entities.GameZone@5c665087, [ Room: 好友房7448518, Id: 7448518, Group: default, isGame: false ]
+2018-10-09 11:03:37.474 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.api.GameApi - Room joined: [ Room: 好友房7448518, Id: 7448518, Group: default, isGame: false ], ( User Name: 大王, Id: 2, Priv: 0, Sess:  ) , asSpect: false
+2018-10-09 11:03:37.476 [nettyDefaultEventExecutorGroup-2-2] INFO  c.n.s.e.managers.GameRoomManager - Cannot remove room: 好友房5428593 from it's group: default. The group was not found.
+2018-10-09 11:03:37.476 [nettyDefaultEventExecutorGroup-2-2] INFO  c.n.s.e.managers.GameRoomManager - Room removed: com.net.server.entities.GameZone@5c665087, [ Room: 好友房5428593, Id: 5428593, Group: default, isGame: false ], Duration: 21615
+2018-10-09 11:04:56.903 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.entities.GameZone - 用户{0}登录成功
+2018-10-09 11:04:56.903 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.api.GameApi - User login: ( User Name: 大王, Id: 3, Priv: 0, Sess:  ) 
+2018-10-09 11:04:56.926 [nettyDefaultEventExecutorGroup-2-4] INFO  c.n.s.e.managers.GameRoomManager - Room created: com.net.server.entities.GameZone@5c665087, [ Room: 好友房1021215, Id: 1021215, Group: default, isGame: false ]
+2018-10-09 11:04:56.928 [nettyDefaultEventExecutorGroup-2-4] INFO  com.net.server.api.GameApi - Room joined: [ Room: 好友房1021215, Id: 1021215, Group: default, isGame: false ], ( User Name: 大王, Id: 3, Priv: 0, Sess:  ) , asSpect: false
+2018-10-09 11:04:57.693 [nettyDefaultEventExecutorGroup-2-1] INFO  com.net.server.entities.GameZone - 用户{0}登录成功
+2018-10-09 11:04:57.693 [nettyDefaultEventExecutorGroup-2-1] INFO  com.net.server.api.GameApi - User login: ( User Name: 大王, Id: 3, Priv: 0, Sess:  ) 
+2018-10-09 11:04:57.706 [nettyDefaultEventExecutorGroup-2-4] INFO  c.n.s.e.managers.GameRoomManager - Room created: com.net.server.entities.GameZone@5c665087, [ Room: 好友房7768681, Id: 7768681, Group: default, isGame: false ]
+2018-10-09 11:04:57.706 [nettyDefaultEventExecutorGroup-2-4] INFO  com.net.server.api.GameApi - Room joined: [ Room: 好友房7768681, Id: 7768681, Group: default, isGame: false ], ( User Name: 大王, Id: 3, Priv: 0, Sess:  ) , asSpect: false
+2018-10-09 11:04:57.709 [nettyDefaultEventExecutorGroup-2-4] INFO  c.n.s.e.managers.GameRoomManager - Cannot remove room: 好友房1021215 from it's group: default. The group was not found.
+2018-10-09 11:04:57.713 [nettyDefaultEventExecutorGroup-2-4] INFO  c.n.s.e.managers.GameRoomManager - Room removed: com.net.server.entities.GameZone@5c665087, [ Room: 好友房1021215, Id: 1021215, Group: default, isGame: false ], Duration: 788
+2018-10-09 12:07:14.020 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.entities.GameZone - 用户{0}登录成功
+2018-10-09 12:07:14.020 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.api.GameApi - User login: ( User Name: 大王, Id: 3, Priv: 0, Sess:  ) 
+2018-10-09 12:07:14.025 [nettyDefaultEventExecutorGroup-2-2] INFO  c.n.s.e.managers.GameRoomManager - Room created: com.net.server.entities.GameZone@5c665087, [ Room: 好友房5791657, Id: 5791657, Group: default, isGame: false ]
+2018-10-09 12:07:14.026 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.api.GameApi - Room joined: [ Room: 好友房5791657, Id: 5791657, Group: default, isGame: false ], ( User Name: 大王, Id: 3, Priv: 0, Sess:  ) , asSpect: false
+2018-10-09 12:07:14.028 [nettyDefaultEventExecutorGroup-2-2] INFO  c.n.s.e.managers.GameRoomManager - Cannot remove room: 好友房7768681 from it's group: default. The group was not found.
+2018-10-09 12:07:14.028 [nettyDefaultEventExecutorGroup-2-2] INFO  c.n.s.e.managers.GameRoomManager - Room removed: com.net.server.entities.GameZone@5c665087, [ Room: 好友房7768681, Id: 7768681, Group: default, isGame: false ], Duration: 3736322
+2018-10-09 14:58:48.041 [nettyDefaultEventExecutorGroup-2-3] INFO  com.net.server.entities.GameZone - 用户{0}登录成功
+2018-10-09 14:58:48.041 [nettyDefaultEventExecutorGroup-2-3] INFO  com.net.server.api.GameApi - User login: ( User Name: 大王, Id: 3, Priv: 0, Sess:  ) 
+2018-10-09 14:58:48.050 [nettyDefaultEventExecutorGroup-2-2] INFO  c.n.s.e.managers.GameRoomManager - Room created: com.net.server.entities.GameZone@5c665087, [ Room: 好友房7144341, Id: 7144341, Group: default, isGame: false ]
+2018-10-09 14:58:48.051 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.api.GameApi - Room joined: [ Room: 好友房7144341, Id: 7144341, Group: default, isGame: false ], ( User Name: 大王, Id: 3, Priv: 0, Sess:  ) , asSpect: false
+2018-10-09 14:58:48.062 [nettyDefaultEventExecutorGroup-2-2] INFO  c.n.s.e.managers.GameRoomManager - Cannot remove room: 好友房5791657 from it's group: default. The group was not found.
+2018-10-09 14:58:48.062 [nettyDefaultEventExecutorGroup-2-2] INFO  c.n.s.e.managers.GameRoomManager - Room removed: com.net.server.entities.GameZone@5c665087, [ Room: 好友房5791657, Id: 5791657, Group: default, isGame: false ], Duration: 10294037
+2018-10-09 15:28:27.480 [nettyDefaultEventExecutorGroup-2-4] INFO  com.net.server.entities.GameZone - 用户{0}登录成功
+2018-10-09 15:28:27.481 [nettyDefaultEventExecutorGroup-2-4] INFO  com.net.server.api.GameApi - User login: ( User Name: 大王, Id: 3, Priv: 0, Sess:  ) 
+2018-10-09 15:28:27.509 [nettyDefaultEventExecutorGroup-2-2] INFO  c.n.s.e.managers.GameRoomManager - Room created: com.net.server.entities.GameZone@5c665087, [ Room: 好友房7795576, Id: 7795576, Group: default, isGame: false ]
+2018-10-09 15:28:27.509 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.api.GameApi - Room joined: [ Room: 好友房7795576, Id: 7795576, Group: default, isGame: false ], ( User Name: 大王, Id: 3, Priv: 0, Sess:  ) , asSpect: false
+2018-10-09 15:28:27.515 [nettyDefaultEventExecutorGroup-2-2] INFO  c.n.s.e.managers.GameRoomManager - Cannot remove room: 好友房7144341 from it's group: default. The group was not found.
+2018-10-09 15:28:27.515 [nettyDefaultEventExecutorGroup-2-2] INFO  c.n.s.e.managers.GameRoomManager - Room removed: com.net.server.entities.GameZone@5c665087, [ Room: 好友房7144341, Id: 7144341, Group: default, isGame: false ], Duration: 1779465
+2018-10-09 15:31:14.660 [nettyDefaultEventExecutorGroup-2-1] INFO  com.net.server.entities.GameZone - 用户{0}登录成功
+2018-10-09 15:31:14.661 [nettyDefaultEventExecutorGroup-2-1] INFO  com.net.server.api.GameApi - User login: ( User Name: 大王, Id: 3, Priv: 0, Sess:  ) 
+2018-10-09 15:31:14.674 [nettyDefaultEventExecutorGroup-2-1] INFO  c.n.s.e.managers.GameRoomManager - Room created: com.net.server.entities.GameZone@5c665087, [ Room: 好友房8216355, Id: 8216355, Group: default, isGame: false ]
+2018-10-09 15:31:14.674 [nettyDefaultEventExecutorGroup-2-1] INFO  com.net.server.api.GameApi - Room joined: [ Room: 好友房8216355, Id: 8216355, Group: default, isGame: false ], ( User Name: 大王, Id: 3, Priv: 0, Sess:  ) , asSpect: false
+2018-10-09 15:31:14.678 [nettyDefaultEventExecutorGroup-2-1] INFO  c.n.s.e.managers.GameRoomManager - Cannot remove room: 好友房7795576 from it's group: default. The group was not found.
+2018-10-09 15:31:14.679 [nettyDefaultEventExecutorGroup-2-1] INFO  c.n.s.e.managers.GameRoomManager - Room removed: com.net.server.entities.GameZone@5c665087, [ Room: 好友房7795576, Id: 7795576, Group: default, isGame: false ], Duration: 167170
+2018-10-09 15:44:00.344 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.entities.GameZone - 用户{0}登录成功
+2018-10-09 15:44:00.344 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.api.GameApi - User login: ( User Name: 大王, Id: 3, Priv: 0, Sess:  ) 
+2018-10-09 15:44:00.358 [nettyDefaultEventExecutorGroup-2-4] INFO  c.n.s.e.managers.GameRoomManager - Room created: com.net.server.entities.GameZone@5c665087, [ Room: 好友房6186908, Id: 6186908, Group: default, isGame: false ]
+2018-10-09 15:44:00.359 [nettyDefaultEventExecutorGroup-2-4] INFO  com.net.server.api.GameApi - Room joined: [ Room: 好友房6186908, Id: 6186908, Group: default, isGame: false ], ( User Name: 大王, Id: 3, Priv: 0, Sess:  ) , asSpect: false
+2018-10-09 15:44:00.360 [nettyDefaultEventExecutorGroup-2-4] INFO  c.n.s.e.managers.GameRoomManager - Cannot remove room: 好友房8216355 from it's group: default. The group was not found.
+2018-10-09 15:44:00.360 [nettyDefaultEventExecutorGroup-2-4] INFO  c.n.s.e.managers.GameRoomManager - Room removed: com.net.server.entities.GameZone@5c665087, [ Room: 好友房8216355, Id: 8216355, Group: default, isGame: false ], Duration: 765686
+2018-10-09 15:46:58.884 [nettyDefaultEventExecutorGroup-2-3] INFO  com.net.server.entities.GameZone - 用户{0}登录成功
+2018-10-09 15:46:58.884 [nettyDefaultEventExecutorGroup-2-3] INFO  com.net.server.api.GameApi - User login: ( User Name: 大王, Id: 3, Priv: 0, Sess:  ) 
+2018-10-09 15:46:58.905 [nettyDefaultEventExecutorGroup-2-1] INFO  c.n.s.e.managers.GameRoomManager - Room created: com.net.server.entities.GameZone@5c665087, [ Room: 好友房8701929, Id: 8701929, Group: default, isGame: false ]
+2018-10-09 15:46:58.906 [nettyDefaultEventExecutorGroup-2-1] INFO  com.net.server.api.GameApi - Room joined: [ Room: 好友房8701929, Id: 8701929, Group: default, isGame: false ], ( User Name: 大王, Id: 3, Priv: 0, Sess:  ) , asSpect: false
+2018-10-09 15:46:58.910 [nettyDefaultEventExecutorGroup-2-1] INFO  c.n.s.e.managers.GameRoomManager - Cannot remove room: 好友房6186908 from it's group: default. The group was not found.
+2018-10-09 15:46:58.910 [nettyDefaultEventExecutorGroup-2-1] INFO  c.n.s.e.managers.GameRoomManager - Room removed: com.net.server.entities.GameZone@5c665087, [ Room: 好友房6186908, Id: 6186908, Group: default, isGame: false ], Duration: 178552
+2018-10-09 15:49:28.389 [nettyDefaultEventExecutorGroup-2-4] INFO  com.net.server.entities.GameZone - 用户{0}登录成功
+2018-10-09 15:49:28.390 [nettyDefaultEventExecutorGroup-2-4] INFO  com.net.server.api.GameApi - User login: ( User Name: 大王, Id: 3, Priv: 0, Sess:  ) 
+2018-10-09 15:49:28.403 [nettyDefaultEventExecutorGroup-2-2] INFO  c.n.s.e.managers.GameRoomManager - Room created: com.net.server.entities.GameZone@5c665087, [ Room: 好友房4832266, Id: 4832266, Group: default, isGame: false ]
+2018-10-09 15:49:28.404 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.api.GameApi - Room joined: [ Room: 好友房4832266, Id: 4832266, Group: default, isGame: false ], ( User Name: 大王, Id: 3, Priv: 0, Sess:  ) , asSpect: false
+2018-10-09 15:49:28.408 [nettyDefaultEventExecutorGroup-2-2] INFO  c.n.s.e.managers.GameRoomManager - Cannot remove room: 好友房8701929 from it's group: default. The group was not found.
+2018-10-09 15:49:28.409 [nettyDefaultEventExecutorGroup-2-2] INFO  c.n.s.e.managers.GameRoomManager - Room removed: com.net.server.entities.GameZone@5c665087, [ Room: 好友房8701929, Id: 8701929, Group: default, isGame: false ], Duration: 149504
+2018-10-09 16:55:17.396 [nioEventLoopGroup-4-1] INFO  c.n.e.s.DefaultSessionManager - Session removed: { Id: 1, Type: DEFAULT, Logged: No, IP: 27.0.0.1/127.0.0.1:52692 }
+2018-10-09 16:55:32.574 [main] INFO  com.net.server.GameServer - Boot sequence starts...
+2018-10-09 16:55:32.704 [main] INFO  o.s.c.s.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@385e9564: startup date [Tue Oct 09 16:55:32 CST 2018]; root of context hierarchy
+2018-10-09 16:55:32.792 [main] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/applicationContext.xml]
+2018-10-09 16:55:33.047 [main] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/spring-redis.xml]
+2018-10-09 16:55:33.065 [main] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/spring-mongo.xml]
+2018-10-09 16:55:33.295 [main] INFO  o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from class path resource [config.properties]
+2018-10-09 16:55:34.037 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[dds-wz9d2c8d85a85f84-pub.mongodb.rds.aliyuncs.com:3717], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=2000}
+2018-10-09 16:55:34.037 [main] INFO  org.mongodb.driver.cluster - Adding discovered server dds-wz9d2c8d85a85f84-pub.mongodb.rds.aliyuncs.com:3717 to client view of cluster
+2018-10-09 16:55:34.446 [cluster-ClusterId{value='5bbc6d06643ed323f07dec12', description='null'}-dds-wz9d2c8d85a85f84-pub.mongodb.rds.aliyuncs.com:3717] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:109753}] to dds-wz9d2c8d85a85f84-pub.mongodb.rds.aliyuncs.com:3717
+2018-10-09 16:55:34.483 [cluster-ClusterId{value='5bbc6d06643ed323f07dec12', description='null'}-dds-wz9d2c8d85a85f84-pub.mongodb.rds.aliyuncs.com:3717] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=dds-wz9d2c8d85a85f84-pub.mongodb.rds.aliyuncs.com:3717, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 6]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=35842343}
+2018-10-09 16:55:34.484 [cluster-ClusterId{value='5bbc6d06643ed323f07dec12', description='null'}-dds-wz9d2c8d85a85f84-pub.mongodb.rds.aliyuncs.com:3717] INFO  org.mongodb.driver.cluster - Discovered cluster type of STANDALONE
+2018-10-09 16:55:41.593 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-1} inited
+2018-10-09 16:55:41.683 [main] INFO  com.net.server.GameServer - init spring container success. 
+2018-10-09 16:55:41.692 [main] INFO  c.n.s.config.DefaultConfigLoader - Loading: config/core.xml
+2018-10-09 16:55:41.901 [main] INFO  com.net.server.core.SFSEventManager -  initalized
+2018-10-09 16:55:41.915 [main] INFO  com.net.server.GameServer - Protocol Type is: BINARY
+2018-10-09 16:55:41.916 [main] INFO  c.n.s.config.DefaultConfigLoader - Loading: zones\BasicExamples.zone.xml
+2018-10-09 16:55:41.928 [main] INFO  com.net.engine.core.NetEngine - NetWorkServer 1X
+2018-10-09 16:55:41.930 [main] INFO  com.net.engine.core.NetEngine - BitSwarmEngine version: 3.30.1 { main }
+2018-10-09 16:55:41.935 [main] INFO  com.net.engine.core.NetEngine - Session manager ready: com.net.engine.sessions.DefaultSessionManager@177515d1
+2018-10-09 16:55:42.076 [main] INFO  com.net.engine.core.SocketAcceptor - 成功绑定端口192.168.2.122:9934
+2018-10-09 16:55:42.077 [main] INFO  bootLogger - Controller started: com.net.server.controllers.SystemReqController 
+2018-10-09 16:55:42.078 [Scheduler1-thread-1] INFO  bootLogger - Scheduler started: scheduler
+2018-10-09 16:55:42.078 [main] INFO  bootLogger - Controller started: com.net.server.controllers.ExtensionReqController 
+2018-10-09 16:55:42.079 [main] INFO  bootLogger - Socket Writer started (pool size:1)
+2018-10-09 16:55:42.080 [main] INFO  bootLogger - Security Manager started
+2018-10-09 16:55:42.081 [main] INFO  com.net.engine.core.NetEngine - [[[ ===--- Boot sequence complete ---=== ]]]
+2018-10-09 16:55:42.082 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.GameServer - Listening Sockets: 
+2018-10-09 16:55:42.083 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.GameServer - SmartFoxServer 2X (1.0.0) READY!
+2018-10-09 16:55:42.085 [nettyDefaultEventExecutorGroup-2-3] INFO  c.n.b.basedata.BaseDataManager - ==============加载静态数据成功===============
+2018-10-09 16:55:48.532 [nioEventLoopGroup-4-1] INFO  c.n.e.s.DefaultSessionManager - Session created: { Id: 1, Type: DEFAULT, Logged: No, IP: 27.0.0.1/127.0.0.1:60641 } on Server port: 9934 <---> 60641
+2018-10-09 17:20:02.218 [nettyDefaultEventExecutorGroup-2-4] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:109947}] to dds-wz9d2c8d85a85f84-pub.mongodb.rds.aliyuncs.com:3717
+2018-10-09 17:20:02.324 [nettyDefaultEventExecutorGroup-2-4] INFO  com.net.server.entities.GameZone - 用户{0}登录成功
+2018-10-09 17:20:02.324 [nettyDefaultEventExecutorGroup-2-4] INFO  com.net.server.api.GameApi - User login: ( User Name: 大王, Id: 3, Priv: 0, Sess:  ) 
+2018-10-09 17:20:02.411 [nettyDefaultEventExecutorGroup-2-4] INFO  c.n.s.e.managers.GameRoomManager - Room created: com.net.server.entities.GameZone@2fbfca66, [ Room: 好友房8329517, Id: 8329517, Group: default, isGame: false ]
+2018-10-09 17:20:02.413 [nettyDefaultEventExecutorGroup-2-4] INFO  com.net.server.api.GameApi - Room joined: [ Room: 好友房8329517, Id: 8329517, Group: default, isGame: false ], ( User Name: 大王, Id: 3, Priv: 0, Sess:  ) , asSpect: false
+2018-10-09 17:21:43.189 [nettyDefaultEventExecutorGroup-2-3] INFO  com.net.server.entities.GameZone - 用户{0}登录成功
+2018-10-09 17:21:43.190 [nettyDefaultEventExecutorGroup-2-3] INFO  com.net.server.api.GameApi - User login: ( User Name: 大王, Id: 3, Priv: 0, Sess:  ) 
+2018-10-09 17:21:43.216 [nettyDefaultEventExecutorGroup-2-2] INFO  c.n.s.e.managers.GameRoomManager - Room created: com.net.server.entities.GameZone@2fbfca66, [ Room: 好友房7849762, Id: 7849762, Group: default, isGame: false ]
+2018-10-09 17:21:43.216 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.api.GameApi - Room joined: [ Room: 好友房7849762, Id: 7849762, Group: default, isGame: false ], ( User Name: 大王, Id: 3, Priv: 0, Sess:  ) , asSpect: false
+2018-10-09 17:21:43.221 [nettyDefaultEventExecutorGroup-2-2] INFO  c.n.s.e.managers.GameRoomManager - Cannot remove room: 好友房8329517 from it's group: default. The group was not found.
+2018-10-09 17:21:43.221 [nettyDefaultEventExecutorGroup-2-2] INFO  c.n.s.e.managers.GameRoomManager - Room removed: com.net.server.entities.GameZone@2fbfca66, [ Room: 好友房8329517, Id: 8329517, Group: default, isGame: false ], Duration: 100813
+2018-10-09 17:22:20.914 [nettyDefaultEventExecutorGroup-2-4] INFO  com.net.server.entities.GameZone - 用户{0}登录成功
+2018-10-09 17:22:20.914 [nettyDefaultEventExecutorGroup-2-4] INFO  com.net.server.api.GameApi - User login: ( User Name: 大王, Id: 3, Priv: 0, Sess:  ) 
+2018-10-09 17:22:20.934 [nettyDefaultEventExecutorGroup-2-3] INFO  c.n.s.e.managers.GameRoomManager - Room created: com.net.server.entities.GameZone@2fbfca66, [ Room: 好友房1818684, Id: 1818684, Group: default, isGame: false ]
+2018-10-09 17:22:20.935 [nettyDefaultEventExecutorGroup-2-3] INFO  com.net.server.api.GameApi - Room joined: [ Room: 好友房1818684, Id: 1818684, Group: default, isGame: false ], ( User Name: 大王, Id: 3, Priv: 0, Sess:  ) , asSpect: false
+2018-10-09 17:22:20.938 [nettyDefaultEventExecutorGroup-2-3] INFO  c.n.s.e.managers.GameRoomManager - Cannot remove room: 好友房7849762 from it's group: default. The group was not found.
+2018-10-09 17:22:20.938 [nettyDefaultEventExecutorGroup-2-3] INFO  c.n.s.e.managers.GameRoomManager - Room removed: com.net.server.entities.GameZone@2fbfca66, [ Room: 好友房7849762, Id: 7849762, Group: default, isGame: false ], Duration: 37723
+2018-10-09 20:20:28.437 [main] INFO  com.net.server.GameServer - Boot sequence starts...
+2018-10-09 20:20:28.520 [main] INFO  o.s.c.s.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1a677343: startup date [Tue Oct 09 20:20:28 CST 2018]; root of context hierarchy
+2018-10-09 20:20:28.555 [main] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/applicationContext.xml]
+2018-10-09 20:20:28.801 [main] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/spring-redis.xml]
+2018-10-09 20:20:28.827 [main] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/spring-mongo.xml]
+2018-10-09 20:20:29.001 [main] INFO  o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from class path resource [config.properties]
+2018-10-09 20:20:29.833 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[dds-wz9d2c8d85a85f84-pub.mongodb.rds.aliyuncs.com:3717], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=2000}
+2018-10-09 20:20:29.833 [main] INFO  org.mongodb.driver.cluster - Adding discovered server dds-wz9d2c8d85a85f84-pub.mongodb.rds.aliyuncs.com:3717 to client view of cluster
+2018-10-09 20:20:30.178 [cluster-ClusterId{value='5bbc9d0d643ed30b9cb0f0b8', description='null'}-dds-wz9d2c8d85a85f84-pub.mongodb.rds.aliyuncs.com:3717] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:111376}] to dds-wz9d2c8d85a85f84-pub.mongodb.rds.aliyuncs.com:3717
+2018-10-09 20:20:30.211 [cluster-ClusterId{value='5bbc9d0d643ed30b9cb0f0b8', description='null'}-dds-wz9d2c8d85a85f84-pub.mongodb.rds.aliyuncs.com:3717] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=dds-wz9d2c8d85a85f84-pub.mongodb.rds.aliyuncs.com:3717, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 6]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=31491839}
+2018-10-09 20:20:30.212 [cluster-ClusterId{value='5bbc9d0d643ed30b9cb0f0b8', description='null'}-dds-wz9d2c8d85a85f84-pub.mongodb.rds.aliyuncs.com:3717] INFO  org.mongodb.driver.cluster - Discovered cluster type of STANDALONE
+2018-10-09 20:20:37.088 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-1} inited
+2018-10-09 20:20:37.195 [main] INFO  com.net.server.GameServer - init spring container success. 
+2018-10-09 20:20:37.202 [main] INFO  c.n.s.config.DefaultConfigLoader - Loading: config/core.xml
+2018-10-09 20:20:37.399 [main] INFO  com.net.server.core.SFSEventManager -  initalized
+2018-10-09 20:20:37.409 [main] INFO  com.net.server.GameServer - Protocol Type is: BINARY
+2018-10-09 20:20:37.409 [main] INFO  c.n.s.config.DefaultConfigLoader - Loading: zones\BasicExamples.zone.xml
+2018-10-09 20:20:37.420 [main] INFO  com.net.engine.core.NetEngine - NetWorkServer 1X
+2018-10-09 20:20:37.422 [main] INFO  com.net.engine.core.NetEngine - BitSwarmEngine version: 3.30.1 { main }
+2018-10-09 20:20:37.426 [main] INFO  com.net.engine.core.NetEngine - Session manager ready: com.net.engine.sessions.DefaultSessionManager@6b6b3572
+2018-10-09 20:20:37.576 [main] INFO  com.net.engine.core.SocketAcceptor - 成功绑定端口192.168.2.122:9934
+2018-10-09 20:20:37.578 [main] INFO  bootLogger - Controller started: com.net.server.controllers.SystemReqController 
+2018-10-09 20:20:37.578 [Scheduler1-thread-1] INFO  bootLogger - Scheduler started: scheduler
+2018-10-09 20:20:37.578 [main] INFO  bootLogger - Controller started: com.net.server.controllers.ExtensionReqController 
+2018-10-09 20:20:37.579 [main] INFO  bootLogger - Socket Writer started (pool size:1)
+2018-10-09 20:20:37.580 [main] INFO  bootLogger - Security Manager started
+2018-10-09 20:20:37.581 [main] INFO  com.net.engine.core.NetEngine - [[[ ===--- Boot sequence complete ---=== ]]]
+2018-10-09 20:20:37.583 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.GameServer - Listening Sockets: 
+2018-10-09 20:20:37.583 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.GameServer - SmartFoxServer 2X (1.0.0) READY!
+2018-10-09 20:20:37.585 [nettyDefaultEventExecutorGroup-2-3] INFO  c.n.b.basedata.BaseDataManager - ==============加载静态数据成功===============
+2018-10-09 20:20:44.391 [nioEventLoopGroup-4-1] INFO  c.n.e.s.DefaultSessionManager - Session created: { Id: 1, Type: DEFAULT, Logged: No, IP: 27.0.0.1/127.0.0.1:52741 } on Server port: 9934 <---> 52741
+2018-10-09 20:22:37.232 [nettyDefaultEventExecutorGroup-2-4] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:111394}] to dds-wz9d2c8d85a85f84-pub.mongodb.rds.aliyuncs.com:3717
+2018-10-09 20:22:37.319 [nettyDefaultEventExecutorGroup-2-4] INFO  com.net.server.entities.GameZone - 用户{0}登录成功
+2018-10-09 20:22:37.319 [nettyDefaultEventExecutorGroup-2-4] INFO  com.net.server.api.GameApi - User login: ( User Name: 测试玩家, Id: 12, Priv: 0, Sess:  ) 
+2018-10-09 20:22:37.693 [nettyDefaultEventExecutorGroup-2-1] INFO  c.n.s.e.managers.GameRoomManager - Room created: com.net.server.entities.GameZone@3d8315c5, [ Room: 好友房5258616, Id: 5258616, Group: default, isGame: false ]
+2018-10-09 20:22:37.730 [nettyDefaultEventExecutorGroup-2-1] INFO  com.net.server.api.GameApi - Room joined: [ Room: 好友房5258616, Id: 5258616, Group: default, isGame: false ], ( User Name: 测试玩家, Id: 12, Priv: 0, Sess:  ) , asSpect: false
+2018-10-09 20:23:46.033 [nettyDefaultEventExecutorGroup-2-3] INFO  com.net.server.entities.GameZone - 用户{0}登录成功
+2018-10-09 20:23:46.034 [nettyDefaultEventExecutorGroup-2-3] INFO  com.net.server.api.GameApi - User login: ( User Name: 测试玩家, Id: 12, Priv: 0, Sess:  ) 
+2018-10-09 20:23:46.938 [nettyDefaultEventExecutorGroup-2-1] INFO  c.n.s.e.managers.GameRoomManager - Room created: com.net.server.entities.GameZone@3d8315c5, [ Room: 好友房4145585, Id: 4145585, Group: default, isGame: false ]
+2018-10-09 20:23:46.938 [nettyDefaultEventExecutorGroup-2-1] INFO  com.net.server.api.GameApi - Room joined: [ Room: 好友房4145585, Id: 4145585, Group: default, isGame: false ], ( User Name: 测试玩家, Id: 12, Priv: 0, Sess:  ) , asSpect: false
+2018-10-09 20:23:46.940 [nettyDefaultEventExecutorGroup-2-1] INFO  c.n.s.e.managers.GameRoomManager - Cannot remove room: 好友房5258616 from it's group: default. The group was not found.
+2018-10-09 20:23:46.941 [nettyDefaultEventExecutorGroup-2-1] INFO  c.n.s.e.managers.GameRoomManager - Room removed: com.net.server.entities.GameZone@3d8315c5, [ Room: 好友房5258616, Id: 5258616, Group: default, isGame: false ], Duration: 69249
+2018-10-09 21:08:26.951 [nettyDefaultEventExecutorGroup-2-4] INFO  com.net.server.entities.GameZone - 用户{0}登录成功
+2018-10-09 21:08:26.952 [nettyDefaultEventExecutorGroup-2-4] INFO  com.net.server.api.GameApi - User login: ( User Name: 测试玩家, Id: 12, Priv: 0, Sess:  ) 
+2018-10-09 21:08:28.449 [nettyDefaultEventExecutorGroup-2-2] INFO  c.n.s.e.managers.GameRoomManager - Room created: com.net.server.entities.GameZone@3d8315c5, [ Room: 好友房8170026, Id: 8170026, Group: default, isGame: false ]
+2018-10-09 21:08:28.449 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.api.GameApi - Room joined: [ Room: 好友房8170026, Id: 8170026, Group: default, isGame: false ], ( User Name: 测试玩家, Id: 12, Priv: 0, Sess:  ) , asSpect: false
+2018-10-09 21:08:28.458 [nettyDefaultEventExecutorGroup-2-2] INFO  c.n.s.e.managers.GameRoomManager - Cannot remove room: 好友房4145585 from it's group: default. The group was not found.
+2018-10-09 21:08:28.458 [nettyDefaultEventExecutorGroup-2-2] INFO  c.n.s.e.managers.GameRoomManager - Room removed: com.net.server.entities.GameZone@3d8315c5, [ Room: 好友房4145585, Id: 4145585, Group: default, isGame: false ], Duration: 2681520
+2018-10-09 21:09:20.911 [nettyDefaultEventExecutorGroup-2-1] INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:2, serverValue:111394}] to dds-wz9d2c8d85a85f84-pub.mongodb.rds.aliyuncs.com:3717 because there was a socket exception raised by this connection.
+2018-10-09 21:09:20.915 [nettyDefaultEventExecutorGroup-2-1] INFO  com.net.server.api.GameApi - Login error: Timeout while receiving message; nested exception is com.mongodb.MongoSocketReadTimeoutException: Timeout while receiving message. Requested by: { Id: 1, Type: DEFAULT, Logged: No, IP: 27.0.0.1/127.0.0.1:52741 }
+2018-10-09 21:09:34.204 [nettyDefaultEventExecutorGroup-2-2] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:3, serverValue:111767}] to dds-wz9d2c8d85a85f84-pub.mongodb.rds.aliyuncs.com:3717
+2018-10-09 21:09:34.237 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.entities.GameZone - 用户{0}登录成功
+2018-10-09 21:09:34.238 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.api.GameApi - User login: ( User Name: 小砖头, Id: 2, Priv: 0, Sess:  ) 
+2018-10-09 21:09:34.270 [nettyDefaultEventExecutorGroup-2-3] INFO  c.n.s.e.managers.GameRoomManager - Room created: com.net.server.entities.GameZone@3d8315c5, [ Room: 好友房3767040, Id: 3767040, Group: default, isGame: false ]
+2018-10-09 21:09:34.273 [nettyDefaultEventExecutorGroup-2-3] INFO  com.net.server.api.GameApi - Room joined: [ Room: 好友房3767040, Id: 3767040, Group: default, isGame: false ], ( User Name: 小砖头, Id: 2, Priv: 0, Sess:  ) , asSpect: false
+2018-10-09 21:11:43.225 [nettyDefaultEventExecutorGroup-2-1] INFO  com.net.server.entities.GameZone - 用户{0}登录成功
+2018-10-09 21:11:43.226 [nettyDefaultEventExecutorGroup-2-1] INFO  com.net.server.api.GameApi - User login: ( User Name: 测试玩家, Id: 12, Priv: 0, Sess:  ) 
+2018-10-09 21:11:43.230 [nettyDefaultEventExecutorGroup-2-3] INFO  com.net.server.api.GameApi - Room joined: [ Room: 好友房3767040, Id: 3767040, Group: default, isGame: false ], ( User Name: 测试玩家, Id: 12, Priv: 0, Sess:  ) , asSpect: false
+2018-10-09 21:13:13.264 [nettyDefaultEventExecutorGroup-2-3] INFO  com.net.server.entities.GameZone - 用户{0}登录成功
+2018-10-09 21:13:13.265 [nettyDefaultEventExecutorGroup-2-3] INFO  com.net.server.api.GameApi - User login: ( User Name: 测试玩家, Id: 12, Priv: 0, Sess:  ) 
+2018-10-09 21:13:38.216 [nettyDefaultEventExecutorGroup-2-1] INFO  com.net.server.entities.GameZone - 用户{0}登录成功
+2018-10-09 21:13:38.216 [nettyDefaultEventExecutorGroup-2-1] INFO  com.net.server.api.GameApi - User login: ( User Name: 测试玩家, Id: 12, Priv: 0, Sess:  ) 
+2018-10-09 21:16:22.448 [nettyDefaultEventExecutorGroup-2-3] INFO  com.net.server.entities.GameZone - 用户{0}登录成功
+2018-10-09 21:16:22.449 [nettyDefaultEventExecutorGroup-2-3] INFO  com.net.server.api.GameApi - User login: ( User Name: 小砖头, Id: 2, Priv: 0, Sess:  ) 
+2018-10-09 21:16:22.459 [nettyDefaultEventExecutorGroup-2-1] INFO  c.n.s.e.managers.GameRoomManager - Room created: com.net.server.entities.GameZone@3d8315c5, [ Room: 好友房8512244, Id: 8512244, Group: default, isGame: false ]
+2018-10-09 21:16:22.460 [nettyDefaultEventExecutorGroup-2-1] INFO  com.net.server.api.GameApi - Room joined: [ Room: 好友房8512244, Id: 8512244, Group: default, isGame: false ], ( User Name: 小砖头, Id: 2, Priv: 0, Sess:  ) , asSpect: false
+2018-10-09 21:16:43.652 [nettyDefaultEventExecutorGroup-2-3] INFO  com.net.server.entities.GameZone - 用户{0}登录成功
+2018-10-09 21:16:43.653 [nettyDefaultEventExecutorGroup-2-3] INFO  com.net.server.api.GameApi - User login: ( User Name: 测试玩家, Id: 12, Priv: 0, Sess:  ) 
+2018-10-09 21:16:43.660 [nettyDefaultEventExecutorGroup-2-1] INFO  com.net.server.api.GameApi - Room joined: [ Room: 好友房8512244, Id: 8512244, Group: default, isGame: false ], ( User Name: 测试玩家, Id: 12, Priv: 0, Sess:  ) , asSpect: false
+2018-10-09 21:19:45.442 [main] INFO  com.net.server.GameServer - Boot sequence starts...
+2018-10-09 21:19:45.554 [main] INFO  o.s.c.s.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@385e9564: startup date [Tue Oct 09 21:19:45 CST 2018]; root of context hierarchy
+2018-10-09 21:19:45.661 [main] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/applicationContext.xml]
+2018-10-09 21:19:45.966 [main] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/spring-redis.xml]
+2018-10-09 21:19:45.991 [main] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring/spring-mongo.xml]
+2018-10-09 21:19:46.290 [main] INFO  o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from class path resource [config.properties]
+2018-10-09 21:19:47.100 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[dds-wz9d2c8d85a85f84-pub.mongodb.rds.aliyuncs.com:3717], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=2000}
+2018-10-09 21:19:47.100 [main] INFO  org.mongodb.driver.cluster - Adding discovered server dds-wz9d2c8d85a85f84-pub.mongodb.rds.aliyuncs.com:3717 to client view of cluster
+2018-10-09 21:19:47.486 [cluster-ClusterId{value='5bbcaaf3643ed329f850c201', description='null'}-dds-wz9d2c8d85a85f84-pub.mongodb.rds.aliyuncs.com:3717] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:111849}] to dds-wz9d2c8d85a85f84-pub.mongodb.rds.aliyuncs.com:3717
+2018-10-09 21:19:47.519 [cluster-ClusterId{value='5bbcaaf3643ed329f850c201', description='null'}-dds-wz9d2c8d85a85f84-pub.mongodb.rds.aliyuncs.com:3717] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=dds-wz9d2c8d85a85f84-pub.mongodb.rds.aliyuncs.com:3717, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 6]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=30842641}
+2018-10-09 21:19:47.520 [cluster-ClusterId{value='5bbcaaf3643ed329f850c201', description='null'}-dds-wz9d2c8d85a85f84-pub.mongodb.rds.aliyuncs.com:3717] INFO  org.mongodb.driver.cluster - Discovered cluster type of STANDALONE
+2018-10-09 21:19:54.558 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-1} inited
+2018-10-09 21:19:54.661 [main] INFO  com.net.server.GameServer - init spring container success. 
+2018-10-09 21:19:54.668 [main] INFO  c.n.s.config.DefaultConfigLoader - Loading: config/core.xml
+2018-10-09 21:19:54.872 [main] INFO  com.net.server.core.SFSEventManager -  initalized
+2018-10-09 21:19:54.883 [main] INFO  com.net.server.GameServer - Protocol Type is: BINARY
+2018-10-09 21:19:54.883 [main] INFO  c.n.s.config.DefaultConfigLoader - Loading: zones\BasicExamples.zone.xml
+2018-10-09 21:19:54.894 [main] INFO  com.net.engine.core.NetEngine - NetWorkServer 1X
+2018-10-09 21:19:54.895 [main] INFO  com.net.engine.core.NetEngine - BitSwarmEngine version: 3.30.1 { main }
+2018-10-09 21:19:54.900 [main] INFO  com.net.engine.core.NetEngine - Session manager ready: com.net.engine.sessions.DefaultSessionManager@795f5d51
+2018-10-09 21:19:55.058 [main] INFO  com.net.engine.core.SocketAcceptor - 成功绑定端口192.168.2.122:9934
+2018-10-09 21:19:55.060 [main] INFO  bootLogger - Controller started: com.net.server.controllers.SystemReqController 
+2018-10-09 21:19:55.060 [main] INFO  bootLogger - Controller started: com.net.server.controllers.ExtensionReqController 
+2018-10-09 21:19:55.061 [main] INFO  bootLogger - Socket Writer started (pool size:1)
+2018-10-09 21:19:55.062 [Scheduler1-thread-1] INFO  bootLogger - Scheduler started: scheduler
+2018-10-09 21:19:55.063 [main] INFO  bootLogger - Security Manager started
+2018-10-09 21:19:55.064 [main] INFO  com.net.engine.core.NetEngine - [[[ ===--- Boot sequence complete ---=== ]]]
+2018-10-09 21:19:55.066 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.GameServer - Listening Sockets: 
+2018-10-09 21:19:55.066 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.GameServer - SmartFoxServer 2X (1.0.0) READY!
+2018-10-09 21:19:55.068 [nettyDefaultEventExecutorGroup-2-3] INFO  c.n.b.basedata.BaseDataManager - ==============加载静态数据成功===============
+2018-10-09 21:19:57.723 [nioEventLoopGroup-4-1] INFO  c.n.e.s.DefaultSessionManager - Session created: { Id: 1, Type: DEFAULT, Logged: No, IP: 27.0.0.1/127.0.0.1:56418 } on Server port: 9934 <---> 56418
+2018-10-09 21:20:29.903 [nettyDefaultEventExecutorGroup-2-4] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:111853}] to dds-wz9d2c8d85a85f84-pub.mongodb.rds.aliyuncs.com:3717
+2018-10-09 21:20:30.000 [nettyDefaultEventExecutorGroup-2-4] INFO  com.net.server.entities.GameZone - 用户{0}登录成功
+2018-10-09 21:20:30.000 [nettyDefaultEventExecutorGroup-2-4] INFO  com.net.server.api.GameApi - User login: ( User Name: 小砖头, Id: 2, Priv: 0, Sess:  ) 
+2018-10-09 21:20:30.027 [nettyDefaultEventExecutorGroup-2-3] INFO  c.n.s.e.managers.GameRoomManager - Room created: com.net.server.entities.GameZone@3df90e2b, [ Room: 好友房4600104, Id: 4600104, Group: default, isGame: false ]
+2018-10-09 21:20:30.029 [nettyDefaultEventExecutorGroup-2-3] INFO  com.net.server.api.GameApi - Room joined: [ Room: 好友房4600104, Id: 4600104, Group: default, isGame: false ], ( User Name: 小砖头, Id: 2, Priv: 0, Sess:  ) , asSpect: false
+2018-10-09 21:20:46.414 [nettyDefaultEventExecutorGroup-2-3] INFO  com.net.server.entities.GameZone - 用户{0}登录成功
+2018-10-09 21:20:46.414 [nettyDefaultEventExecutorGroup-2-3] INFO  com.net.server.api.GameApi - User login: ( User Name: 测试玩家, Id: 12, Priv: 0, Sess:  ) 
+2018-10-09 21:21:44.495 [nettyDefaultEventExecutorGroup-2-1] INFO  com.net.server.entities.GameZone - 用户{0}登录成功
+2018-10-09 21:21:44.495 [nettyDefaultEventExecutorGroup-2-1] INFO  com.net.server.api.GameApi - User login: ( User Name: 小砖头, Id: 2, Priv: 0, Sess:  ) 
+2018-10-09 21:21:44.514 [nettyDefaultEventExecutorGroup-2-1] INFO  c.n.s.e.managers.GameRoomManager - Room created: com.net.server.entities.GameZone@3df90e2b, [ Room: 好友房5302072, Id: 5302072, Group: default, isGame: false ]
+2018-10-09 21:21:44.514 [nettyDefaultEventExecutorGroup-2-1] INFO  com.net.server.api.GameApi - Room joined: [ Room: 好友房5302072, Id: 5302072, Group: default, isGame: false ], ( User Name: 小砖头, Id: 2, Priv: 0, Sess:  ) , asSpect: false
+2018-10-09 21:21:44.524 [nettyDefaultEventExecutorGroup-2-1] INFO  c.n.s.e.managers.GameRoomManager - Cannot remove room: 好友房4600104 from it's group: default. The group was not found.
+2018-10-09 21:21:44.525 [nettyDefaultEventExecutorGroup-2-1] INFO  c.n.s.e.managers.GameRoomManager - Room removed: com.net.server.entities.GameZone@3df90e2b, [ Room: 好友房4600104, Id: 4600104, Group: default, isGame: false ], Duration: 74499
+2018-10-09 21:21:58.526 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.entities.GameZone - 用户{0}登录成功
+2018-10-09 21:21:58.526 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.api.GameApi - User login: ( User Name: 测试玩家, Id: 12, Priv: 0, Sess:  ) 
+2018-10-09 21:21:58.546 [nettyDefaultEventExecutorGroup-2-1] INFO  com.net.server.api.GameApi - Room joined: [ Room: 好友房5302072, Id: 5302072, Group: default, isGame: false ], ( User Name: 测试玩家, Id: 12, Priv: 0, Sess:  ) , asSpect: false
+2018-10-09 21:22:52.655 [nettyDefaultEventExecutorGroup-2-1] INFO  com.net.server.entities.GameZone - 用户{0}登录成功
+2018-10-09 21:22:52.655 [nettyDefaultEventExecutorGroup-2-1] INFO  com.net.server.api.GameApi - User login: ( User Name: 小砖头, Id: 2, Priv: 0, Sess:  ) 
+2018-10-09 21:22:52.706 [nettyDefaultEventExecutorGroup-2-1] INFO  c.n.s.e.managers.GameRoomManager - Room created: com.net.server.entities.GameZone@3df90e2b, [ Room: 好友房6624375, Id: 6624375, Group: default, isGame: false ]
+2018-10-09 21:22:52.707 [nettyDefaultEventExecutorGroup-2-1] INFO  com.net.server.api.GameApi - Room joined: [ Room: 好友房6624375, Id: 6624375, Group: default, isGame: false ], ( User Name: 小砖头, Id: 2, Priv: 0, Sess:  ) , asSpect: false
+2018-10-09 21:24:02.620 [nettyDefaultEventExecutorGroup-2-1] INFO  com.net.server.entities.GameZone - 用户{0}登录成功
+2018-10-09 21:24:02.621 [nettyDefaultEventExecutorGroup-2-1] INFO  com.net.server.api.GameApi - User login: ( User Name: 测试玩家, Id: 12, Priv: 0, Sess:  ) 
+2018-10-09 21:24:02.629 [nettyDefaultEventExecutorGroup-2-1] INFO  com.net.server.api.GameApi - Room joined: [ Room: 好友房6624375, Id: 6624375, Group: default, isGame: false ], ( User Name: 测试玩家, Id: 12, Priv: 0, Sess:  ) , asSpect: false
+2018-10-09 21:24:02.641 [nettyDefaultEventExecutorGroup-2-1] INFO  c.n.s.e.managers.GameRoomManager - Cannot remove room: 好友房5302072 from it's group: default. The group was not found.
+2018-10-09 21:24:02.641 [nettyDefaultEventExecutorGroup-2-1] INFO  c.n.s.e.managers.GameRoomManager - Room removed: com.net.server.entities.GameZone@3df90e2b, [ Room: 好友房5302072, Id: 5302072, Group: default, isGame: false ], Duration: 138128

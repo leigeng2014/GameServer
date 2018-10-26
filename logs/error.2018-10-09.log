@@ -1,0 +1,78 @@
+2018-10-09 16:55:17.389 [nioEventLoopGroup-4-1] ERROR c.net.engine.handler.ServerHandler - Work线程池系统错误
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[na:1.8.0_181]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[na:1.8.0_181]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[na:1.8.0_181]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192) ~[na:1.8.0_181]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[na:1.8.0_181]
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288) ~[netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100) ~[netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:367) ~[netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118) ~[netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+2018-10-09 21:11:43.245 [nettyDefaultEventExecutorGroup-2-3] ERROR c.n.s.c.ExtensionReqController - com.net.server.exceptions.GameRuntimeException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.net.server.exceptions.GameRuntimeException
+Message: java.lang.IllegalArgumentException: GameObject requires a non-null value! If you need to add a null use the putNull() method.
+Description: Error while handling client request in extension: com.net.business.extensions.ExtensionMain@4153cd5
+Extension Cmd: 5
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.net.server.data.DefaultGameDataSerializer.pojo2game(DefaultGameDataSerializer.java:973)
+com.net.server.data.GameObject.newFromObject(GameObject.java:20)
+com.net.server.api.response.GameResponseApi.notifyUserEnterRoom(GameResponseApi.java:128)
+com.net.server.api.GameApi.joinRoom(GameApi.java:299)
+com.net.server.api.GameApi.joinRoom(GameApi.java:238)
+com.net.server.api.GameApi.joinRoom(GameApi.java:233)
+com.net.business.extensions.handler.room.JoinRoomHandler.handleClientRequest(JoinRoomHandler.java:44)
+com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77)
+com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97)
+com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150)
+io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+java.lang.Thread.run(Thread.java:748)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+2018-10-09 21:16:43.664 [nettyDefaultEventExecutorGroup-2-1] ERROR c.n.s.c.ExtensionReqController - com.net.server.exceptions.GameRuntimeException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.net.server.exceptions.GameRuntimeException
+Message: java.lang.IllegalArgumentException: GameObject requires a non-null value! If you need to add a null use the putNull() method.
+Description: Error while handling client request in extension: com.net.business.extensions.ExtensionMain@4153cd5
+Extension Cmd: 5
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.net.server.data.DefaultGameDataSerializer.pojo2game(DefaultGameDataSerializer.java:973)
+com.net.server.data.GameObject.newFromObject(GameObject.java:20)
+com.net.server.api.response.GameResponseApi.notifyUserEnterRoom(GameResponseApi.java:128)
+com.net.server.api.GameApi.joinRoom(GameApi.java:299)
+com.net.server.api.GameApi.joinRoom(GameApi.java:238)
+com.net.server.api.GameApi.joinRoom(GameApi.java:233)
+com.net.business.extensions.handler.room.JoinRoomHandler.handleClientRequest(JoinRoomHandler.java:44)
+com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77)
+com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97)
+com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150)
+io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+java.lang.Thread.run(Thread.java:748)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+2018-10-09 21:20:46.427 [nettyDefaultEventExecutorGroup-2-1] ERROR c.n.b.e.h.room.JoinRoomHandler - 加入房间出错:12,{}
+com.net.server.exceptions.GameException: 房间不存在
+	at com.net.business.extensions.handler.room.JoinRoomHandler.handleClientRequest(JoinRoomHandler.java:27) ~[classes/:na]
+	at com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77) [classes/:na]
+	at com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97) [classes/:na]
+	at com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150) [classes/:na]
+	at io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]

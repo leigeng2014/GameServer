@@ -1,0 +1,653 @@
+2018-10-23 16:40:44.836 [nettyDefaultEventExecutorGroup-2-4] ERROR c.n.s.c.ExtensionReqController - java.lang.NullPointerException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: Error while handling client request in extension: com.net.business.extensions.ExtensionMain@2973678c
+Extension Cmd: 2007
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.net.business.extensions.handler.room.KillMonsterHandler.handleClientRequest(KillMonsterHandler.java:16)
+com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77)
+com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97)
+com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150)
+io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+java.lang.Thread.run(Thread.java:748)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+2018-10-23 16:40:45.698 [nettyDefaultEventExecutorGroup-2-4] ERROR c.n.s.c.ExtensionReqController - java.lang.NullPointerException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: Error while handling client request in extension: com.net.business.extensions.ExtensionMain@2973678c
+Extension Cmd: 2007
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.net.business.extensions.handler.room.KillMonsterHandler.handleClientRequest(KillMonsterHandler.java:16)
+com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77)
+com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97)
+com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150)
+io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+java.lang.Thread.run(Thread.java:748)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+2018-10-23 16:40:46.248 [nettyDefaultEventExecutorGroup-2-4] ERROR c.n.s.c.ExtensionReqController - java.lang.NullPointerException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: Error while handling client request in extension: com.net.business.extensions.ExtensionMain@2973678c
+Extension Cmd: 2007
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.net.business.extensions.handler.room.KillMonsterHandler.handleClientRequest(KillMonsterHandler.java:16)
+com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77)
+com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97)
+com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150)
+io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+java.lang.Thread.run(Thread.java:748)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+2018-10-23 16:40:47.016 [nettyDefaultEventExecutorGroup-2-4] ERROR c.n.s.c.ExtensionReqController - java.lang.NullPointerException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: Error while handling client request in extension: com.net.business.extensions.ExtensionMain@2973678c
+Extension Cmd: 2007
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.net.business.extensions.handler.room.KillMonsterHandler.handleClientRequest(KillMonsterHandler.java:16)
+com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77)
+com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97)
+com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150)
+io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+java.lang.Thread.run(Thread.java:748)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+2018-10-23 16:40:47.915 [nettyDefaultEventExecutorGroup-2-4] ERROR c.n.s.c.ExtensionReqController - java.lang.NullPointerException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: Error while handling client request in extension: com.net.business.extensions.ExtensionMain@2973678c
+Extension Cmd: 2007
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.net.business.extensions.handler.room.KillMonsterHandler.handleClientRequest(KillMonsterHandler.java:16)
+com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77)
+com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97)
+com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150)
+io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+java.lang.Thread.run(Thread.java:748)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+2018-10-23 16:41:29.203 [nettyDefaultEventExecutorGroup-2-2] ERROR c.n.s.c.ExtensionReqController - java.lang.NullPointerException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: Error while handling client request in extension: com.net.business.extensions.ExtensionMain@2973678c
+Extension Cmd: 2007
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.net.business.extensions.handler.room.KillMonsterHandler.handleClientRequest(KillMonsterHandler.java:16)
+com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77)
+com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97)
+com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150)
+io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+java.lang.Thread.run(Thread.java:748)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+2018-10-23 16:41:29.749 [nettyDefaultEventExecutorGroup-2-2] ERROR c.n.s.c.ExtensionReqController - java.lang.NullPointerException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: Error while handling client request in extension: com.net.business.extensions.ExtensionMain@2973678c
+Extension Cmd: 2007
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.net.business.extensions.handler.room.KillMonsterHandler.handleClientRequest(KillMonsterHandler.java:16)
+com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77)
+com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97)
+com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150)
+io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+java.lang.Thread.run(Thread.java:748)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+2018-10-23 16:41:31.365 [nettyDefaultEventExecutorGroup-2-2] ERROR c.n.s.c.ExtensionReqController - java.lang.NullPointerException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: Error while handling client request in extension: com.net.business.extensions.ExtensionMain@2973678c
+Extension Cmd: 2007
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.net.business.extensions.handler.room.KillMonsterHandler.handleClientRequest(KillMonsterHandler.java:16)
+com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77)
+com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97)
+com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150)
+io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+java.lang.Thread.run(Thread.java:748)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+2018-10-23 16:41:31.932 [nettyDefaultEventExecutorGroup-2-2] ERROR c.n.s.c.ExtensionReqController - java.lang.NullPointerException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: Error while handling client request in extension: com.net.business.extensions.ExtensionMain@2973678c
+Extension Cmd: 2007
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.net.business.extensions.handler.room.KillMonsterHandler.handleClientRequest(KillMonsterHandler.java:16)
+com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77)
+com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97)
+com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150)
+io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+java.lang.Thread.run(Thread.java:748)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+2018-10-23 16:41:32.399 [nettyDefaultEventExecutorGroup-2-2] ERROR c.n.s.c.ExtensionReqController - java.lang.NullPointerException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: Error while handling client request in extension: com.net.business.extensions.ExtensionMain@2973678c
+Extension Cmd: 2007
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.net.business.extensions.handler.room.KillMonsterHandler.handleClientRequest(KillMonsterHandler.java:16)
+com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77)
+com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97)
+com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150)
+io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+java.lang.Thread.run(Thread.java:748)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+2018-10-23 16:41:33.298 [nettyDefaultEventExecutorGroup-2-2] ERROR c.n.s.c.ExtensionReqController - java.lang.NullPointerException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: Error while handling client request in extension: com.net.business.extensions.ExtensionMain@2973678c
+Extension Cmd: 2007
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.net.business.extensions.handler.room.KillMonsterHandler.handleClientRequest(KillMonsterHandler.java:16)
+com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77)
+com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97)
+com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150)
+io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+java.lang.Thread.run(Thread.java:748)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+2018-10-23 16:41:35.099 [nettyDefaultEventExecutorGroup-2-2] ERROR c.n.s.c.ExtensionReqController - java.lang.NullPointerException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: Error while handling client request in extension: com.net.business.extensions.ExtensionMain@2973678c
+Extension Cmd: 2007
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.net.business.extensions.handler.room.KillMonsterHandler.handleClientRequest(KillMonsterHandler.java:16)
+com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77)
+com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97)
+com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150)
+io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+java.lang.Thread.run(Thread.java:748)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+2018-10-23 16:41:35.682 [nettyDefaultEventExecutorGroup-2-2] ERROR c.n.s.c.ExtensionReqController - java.lang.NullPointerException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: Error while handling client request in extension: com.net.business.extensions.ExtensionMain@2973678c
+Extension Cmd: 2007
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.net.business.extensions.handler.room.KillMonsterHandler.handleClientRequest(KillMonsterHandler.java:16)
+com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77)
+com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97)
+com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150)
+io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+java.lang.Thread.run(Thread.java:748)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+2018-10-23 16:41:36.148 [nettyDefaultEventExecutorGroup-2-2] ERROR c.n.s.c.ExtensionReqController - java.lang.NullPointerException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: Error while handling client request in extension: com.net.business.extensions.ExtensionMain@2973678c
+Extension Cmd: 2007
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.net.business.extensions.handler.room.KillMonsterHandler.handleClientRequest(KillMonsterHandler.java:16)
+com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77)
+com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97)
+com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150)
+io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+java.lang.Thread.run(Thread.java:748)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+2018-10-23 16:41:36.632 [nettyDefaultEventExecutorGroup-2-2] ERROR c.n.s.c.ExtensionReqController - java.lang.NullPointerException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: Error while handling client request in extension: com.net.business.extensions.ExtensionMain@2973678c
+Extension Cmd: 2007
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.net.business.extensions.handler.room.KillMonsterHandler.handleClientRequest(KillMonsterHandler.java:16)
+com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77)
+com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97)
+com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150)
+io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+java.lang.Thread.run(Thread.java:748)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+2018-10-23 16:41:37.399 [nettyDefaultEventExecutorGroup-2-2] ERROR c.n.s.c.ExtensionReqController - java.lang.NullPointerException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: Error while handling client request in extension: com.net.business.extensions.ExtensionMain@2973678c
+Extension Cmd: 2007
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.net.business.extensions.handler.room.KillMonsterHandler.handleClientRequest(KillMonsterHandler.java:16)
+com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77)
+com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97)
+com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150)
+io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+java.lang.Thread.run(Thread.java:748)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+2018-10-23 16:41:37.915 [nettyDefaultEventExecutorGroup-2-2] ERROR c.n.s.c.ExtensionReqController - java.lang.NullPointerException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: Error while handling client request in extension: com.net.business.extensions.ExtensionMain@2973678c
+Extension Cmd: 2007
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.net.business.extensions.handler.room.KillMonsterHandler.handleClientRequest(KillMonsterHandler.java:16)
+com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77)
+com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97)
+com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150)
+io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+java.lang.Thread.run(Thread.java:748)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+2018-10-23 16:41:45.699 [nettyDefaultEventExecutorGroup-2-2] ERROR c.n.s.c.ExtensionReqController - java.lang.NullPointerException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: Error while handling client request in extension: com.net.business.extensions.ExtensionMain@2973678c
+Extension Cmd: 2007
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.net.business.extensions.handler.room.KillMonsterHandler.handleClientRequest(KillMonsterHandler.java:16)
+com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77)
+com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97)
+com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150)
+io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+java.lang.Thread.run(Thread.java:748)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+2018-10-23 16:41:46.148 [nettyDefaultEventExecutorGroup-2-2] ERROR c.n.s.c.ExtensionReqController - java.lang.NullPointerException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: Error while handling client request in extension: com.net.business.extensions.ExtensionMain@2973678c
+Extension Cmd: 2007
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.net.business.extensions.handler.room.KillMonsterHandler.handleClientRequest(KillMonsterHandler.java:16)
+com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77)
+com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97)
+com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150)
+io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+java.lang.Thread.run(Thread.java:748)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+2018-10-23 16:41:48.148 [nettyDefaultEventExecutorGroup-2-2] ERROR c.n.s.c.ExtensionReqController - java.lang.NullPointerException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: Error while handling client request in extension: com.net.business.extensions.ExtensionMain@2973678c
+Extension Cmd: 2007
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.net.business.extensions.handler.room.KillMonsterHandler.handleClientRequest(KillMonsterHandler.java:16)
+com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77)
+com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97)
+com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150)
+io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+java.lang.Thread.run(Thread.java:748)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+2018-10-23 16:41:48.231 [nettyDefaultEventExecutorGroup-2-2] ERROR c.n.s.c.ExtensionReqController - java.lang.NullPointerException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: Error while handling client request in extension: com.net.business.extensions.ExtensionMain@2973678c
+Extension Cmd: 2007
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.net.business.extensions.handler.room.KillMonsterHandler.handleClientRequest(KillMonsterHandler.java:16)
+com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77)
+com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97)
+com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150)
+io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+java.lang.Thread.run(Thread.java:748)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+2018-10-23 16:41:48.649 [nettyDefaultEventExecutorGroup-2-2] ERROR c.n.s.c.ExtensionReqController - java.lang.NullPointerException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: Error while handling client request in extension: com.net.business.extensions.ExtensionMain@2973678c
+Extension Cmd: 2007
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.net.business.extensions.handler.room.KillMonsterHandler.handleClientRequest(KillMonsterHandler.java:16)
+com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77)
+com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97)
+com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150)
+io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+java.lang.Thread.run(Thread.java:748)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+2018-10-23 16:41:49.066 [nettyDefaultEventExecutorGroup-2-2] ERROR c.n.s.c.ExtensionReqController - java.lang.NullPointerException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: Error while handling client request in extension: com.net.business.extensions.ExtensionMain@2973678c
+Extension Cmd: 2007
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.net.business.extensions.handler.room.KillMonsterHandler.handleClientRequest(KillMonsterHandler.java:16)
+com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77)
+com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97)
+com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150)
+io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+java.lang.Thread.run(Thread.java:748)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+2018-10-23 16:42:49.827 [nettyDefaultEventExecutorGroup-2-1] ERROR c.n.s.c.ExtensionReqController - java.lang.NullPointerException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: Error while handling client request in extension: com.net.business.extensions.ExtensionMain@2973678c
+Extension Cmd: 2007
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.net.business.extensions.handler.room.KillMonsterHandler.handleClientRequest(KillMonsterHandler.java:16)
+com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77)
+com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97)
+com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150)
+io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+java.lang.Thread.run(Thread.java:748)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+2018-10-23 16:42:50.733 [nettyDefaultEventExecutorGroup-2-1] ERROR c.n.s.c.ExtensionReqController - java.lang.NullPointerException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: Error while handling client request in extension: com.net.business.extensions.ExtensionMain@2973678c
+Extension Cmd: 2007
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.net.business.extensions.handler.room.KillMonsterHandler.handleClientRequest(KillMonsterHandler.java:16)
+com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77)
+com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97)
+com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150)
+io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+java.lang.Thread.run(Thread.java:748)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+2018-10-23 16:42:51.999 [nettyDefaultEventExecutorGroup-2-1] ERROR c.n.s.c.ExtensionReqController - java.lang.NullPointerException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: Error while handling client request in extension: com.net.business.extensions.ExtensionMain@2973678c
+Extension Cmd: 2007
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.net.business.extensions.handler.room.KillMonsterHandler.handleClientRequest(KillMonsterHandler.java:16)
+com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77)
+com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97)
+com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150)
+io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+java.lang.Thread.run(Thread.java:748)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+2018-10-23 16:43:20.971 [nioEventLoopGroup-4-1] ERROR c.net.engine.handler.ServerHandler - Work线程池系统错误
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[na:1.8.0_181]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[na:1.8.0_181]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[na:1.8.0_181]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192) ~[na:1.8.0_181]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[na:1.8.0_181]
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288) ~[netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100) ~[netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:367) ~[netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118) ~[netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+2018-10-23 16:45:18.591 [nettyDefaultEventExecutorGroup-2-1] ERROR c.n.s.c.ExtensionReqController - java.lang.NullPointerException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: Error while handling client request in extension: com.net.business.extensions.ExtensionMain@4588627c
+Extension Cmd: 2007
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.net.business.extensions.handler.room.KillMonsterHandler.handleClientRequest(KillMonsterHandler.java:16)
+com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77)
+com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97)
+com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150)
+io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+java.lang.Thread.run(Thread.java:748)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+2018-10-23 16:45:18.605 [nettyDefaultEventExecutorGroup-2-1] ERROR c.n.s.c.ExtensionReqController - java.lang.NullPointerException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: Error while handling client request in extension: com.net.business.extensions.ExtensionMain@4588627c
+Extension Cmd: 2007
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.net.business.extensions.handler.room.KillMonsterHandler.handleClientRequest(KillMonsterHandler.java:16)
+com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77)
+com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97)
+com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150)
+io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+java.lang.Thread.run(Thread.java:748)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+2018-10-23 16:45:19.952 [nettyDefaultEventExecutorGroup-2-1] ERROR c.n.s.c.ExtensionReqController - java.lang.NullPointerException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: Error while handling client request in extension: com.net.business.extensions.ExtensionMain@4588627c
+Extension Cmd: 2007
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.net.business.extensions.handler.room.KillMonsterHandler.handleClientRequest(KillMonsterHandler.java:16)
+com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77)
+com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97)
+com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150)
+io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+java.lang.Thread.run(Thread.java:748)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+2018-10-23 16:45:19.970 [nettyDefaultEventExecutorGroup-2-1] ERROR c.n.s.c.ExtensionReqController - java.lang.NullPointerException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: Error while handling client request in extension: com.net.business.extensions.ExtensionMain@4588627c
+Extension Cmd: 2007
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.net.business.extensions.handler.room.KillMonsterHandler.handleClientRequest(KillMonsterHandler.java:16)
+com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77)
+com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97)
+com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150)
+io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+java.lang.Thread.run(Thread.java:748)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+2018-10-23 16:45:22.854 [nettyDefaultEventExecutorGroup-2-1] ERROR c.n.s.c.ExtensionReqController - java.lang.NullPointerException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: Error while handling client request in extension: com.net.business.extensions.ExtensionMain@4588627c
+Extension Cmd: 2007
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.net.business.extensions.handler.room.KillMonsterHandler.handleClientRequest(KillMonsterHandler.java:16)
+com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77)
+com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97)
+com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150)
+io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+java.lang.Thread.run(Thread.java:748)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+2018-10-23 17:13:16.069 [nettyDefaultEventExecutorGroup-2-3] ERROR c.n.s.c.ExtensionReqController - java.lang.IndexOutOfBoundsException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.IndexOutOfBoundsException
+Message: Index: 12, Size: 12
+Description: Error while handling client request in extension: com.net.business.extensions.ExtensionMain@384e6831
+Extension Cmd: 2007
++--- --- ---+
+Stack Trace:
++--- --- ---+
+java.util.ArrayList.rangeCheck(ArrayList.java:657)
+java.util.ArrayList.remove(ArrayList.java:496)
+com.net.business.entity.GameData.killMonster(GameData.java:101)
+com.net.business.extensions.handler.GameUtils.attackTower(GameUtils.java:46)
+com.net.business.extensions.handler.room.KillMonsterHandler.handleClientRequest(KillMonsterHandler.java:24)
+com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77)
+com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97)
+com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150)
+io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+java.lang.Thread.run(Thread.java:748)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+2018-10-23 17:13:19.432 [nettyDefaultEventExecutorGroup-2-3] ERROR c.n.s.c.ExtensionReqController - java.lang.IndexOutOfBoundsException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.IndexOutOfBoundsException
+Message: Index: 11, Size: 11
+Description: Error while handling client request in extension: com.net.business.extensions.ExtensionMain@384e6831
+Extension Cmd: 2007
++--- --- ---+
+Stack Trace:
++--- --- ---+
+java.util.ArrayList.rangeCheck(ArrayList.java:657)
+java.util.ArrayList.remove(ArrayList.java:496)
+com.net.business.entity.GameData.killMonster(GameData.java:101)
+com.net.business.extensions.handler.GameUtils.attackTower(GameUtils.java:46)
+com.net.business.extensions.handler.room.KillMonsterHandler.handleClientRequest(KillMonsterHandler.java:24)
+com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77)
+com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97)
+com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150)
+io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+java.lang.Thread.run(Thread.java:748)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+

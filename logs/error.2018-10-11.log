@@ -1,0 +1,10 @@
+2018-10-11 09:53:24.321 [nettyDefaultEventExecutorGroup-2-1] ERROR c.n.b.e.h.room.JoinRoomHandler - 加入房间出错:12,{}
+com.net.server.exceptions.GameException: 房间不存在
+	at com.net.business.extensions.handler.room.JoinRoomHandler.handleClientRequest(JoinRoomHandler.java:27) ~[classes/:na]
+	at com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77) [classes/:na]
+	at com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97) [classes/:na]
+	at com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150) [classes/:na]
+	at io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]

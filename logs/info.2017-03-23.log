@@ -1,0 +1,101 @@
+2017-03-23 15:24:12.451 [main] INFO  com.net.server.GameServer - Boot sequence starts...
+2017-03-23 15:24:13.231 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-03-23 15:24:13.241 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-2} inited
+2017-03-23 15:24:13.249 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-3} inited
+2017-03-23 15:24:13.256 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-4} inited
+2017-03-23 15:24:13.263 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-5} inited
+2017-03-23 15:24:13.379 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-6} inited
+2017-03-23 15:24:13.394 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-7} inited
+2017-03-23 15:24:13.403 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-8} inited
+2017-03-23 15:24:13.533 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-9} inited
+2017-03-23 15:24:13.542 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-10} inited
+2017-03-23 15:24:13.568 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-11} inited
+2017-03-23 15:24:13.599 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-12} inited
+2017-03-23 15:24:13.669 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-13} inited
+2017-03-23 15:24:13.677 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-14} inited
+2017-03-23 15:24:13.684 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-15} inited
+2017-03-23 15:24:13.696 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-16} inited
+2017-03-23 15:24:13.847 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-17} inited
+2017-03-23 15:24:13.858 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-18} inited
+2017-03-23 15:24:13.866 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-19} inited
+2017-03-23 15:24:14.015 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-20} inited
+2017-03-23 15:24:14.025 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-21} inited
+2017-03-23 15:24:14.036 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-22} inited
+2017-03-23 15:24:14.055 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-23} inited
+2017-03-23 15:24:14.165 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-24} inited
+2017-03-23 15:24:14.175 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-25} inited
+2017-03-23 15:24:14.186 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-26} inited
+2017-03-23 15:24:14.211 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-27} inited
+2017-03-23 15:24:14.300 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-28} inited
+2017-03-23 15:24:14.311 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-29} inited
+2017-03-23 15:24:14.321 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-30} inited
+2017-03-23 15:24:14.329 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-31} inited
+2017-03-23 15:24:14.468 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-32} inited
+2017-03-23 15:24:14.481 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-33} inited
+2017-03-23 15:24:14.494 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-34} inited
+2017-03-23 15:24:14.507 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-35} inited
+2017-03-23 15:24:32.913 [main] INFO  com.net.server.GameServer - Boot sequence starts...
+2017-03-23 15:24:33.759 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-1} inited
+2017-03-23 15:24:34.148 [main] INFO  com.net.server.GameServer - init spring container success. 
+2017-03-23 15:24:34.152 [main] INFO  c.n.s.config.DefaultConfigLoader - Loading: config/core.xml
+2017-03-23 15:24:34.384 [main] INFO  com.net.server.core.SFSEventManager -  initalized
+2017-03-23 15:24:34.397 [main] INFO  com.net.server.GameServer - Protocol Type is: BINARY
+2017-03-23 15:24:34.397 [main] INFO  c.n.s.config.DefaultConfigLoader - Loading: zones\BasicExamples.zone.xml
+2017-03-23 15:24:34.409 [main] INFO  com.net.engine.core.NetEngine - NetWorkServer 1X
+2017-03-23 15:24:34.411 [main] INFO  com.net.engine.core.NetEngine - BitSwarmEngine version: 3.30.1 { main }
+2017-03-23 15:24:34.411 [main] INFO  com.net.engine.core.NetEngine - System Info:
+	Processor(s): 8
+	VM Max. memory: 1895MB
+	os.name: Windows 7
+	os.arch: amd64
+	os.version: 6.1
+	java.version: 1.8.0_60
+	java.vendor: Oracle Corporation
+	java.vendor.url: http://java.oracle.com/
+	java.vm.specification.version: 1.8
+	java.vm.version: 25.60-b23
+	java.vm.vendor: Oracle Corporation
+	java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+	java.io.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp\
+	Default charset: UTF-8
+
+2017-03-23 15:24:34.446 [main] INFO  com.net.engine.core.NetEngine - Network Info:
+	Card: Software Loopback Interface 1
+		 ->127.0.0.1
+		 ->0:0:0:0:0:0:0:1
+	Card: WAN Miniport (SSTP)
+	Card: WAN Miniport (L2TP)
+	Card: WAN Miniport (PPTP)
+	Card: WAN Miniport (PPPOE)
+	Card: WAN Miniport (IPv6)
+	Card: WAN Miniport (Network Monitor)
+	Card: WAN Miniport (IP)
+	Card: RAS Async Adapter
+	Card: WAN Miniport (IKEv2)
+	Card: Microsoft Teredo Tunneling Adapter
+		 ->2001:0:9d38:6ab8:3c63:92b7:95a8:f743
+		 ->fe80:0:0:0:3c63:92b7:95a8:f743%net4
+	Card: Intel(R) Ethernet Connection I217-V
+		 ->192.168.1.114
+		 ->fe80:0:0:0:8c3e:fb68:1e96:e9ff%eth3
+	Card: Realtek RTL8192EU Wireless LAN 802.11n USB 2.0 Network Adapter
+	Card: Realtek RTL8188EU Wireless LAN 802.11n USB 2.0 Network Adapter
+	Card: Microsoft ISATAP Adapter
+		 ->fe80:0:0:0:0:5efe:c0a8:172%net5
+	Card: Intel(R) Ethernet Connection I217-V-QoS Packet Scheduler-0000
+	Card: Intel(R) Ethernet Connection I217-V-WFP LightWeight Filter-0000
+	Card: WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000
+	Card: WAN Miniport (IP)-QoS Packet Scheduler-0000
+	Card: WAN Miniport (IPv6)-QoS Packet Scheduler-0000
+
+2017-03-23 15:24:34.449 [main] INFO  com.net.engine.core.NetEngine - Session manager ready: com.net.engine.sessions.DefaultSessionManager@67d86804
+2017-03-23 15:24:34.627 [main] INFO  bootLogger - Controller started: com.net.server.controllers.SystemReqController 
+2017-03-23 15:24:34.627 [Scheduler1-thread-1] INFO  bootLogger - Scheduler started: scheduler
+2017-03-23 15:24:34.627 [main] INFO  bootLogger - Controller started: com.net.server.controllers.ExtensionReqController 
+2017-03-23 15:24:34.655 [main] INFO  bootLogger - WebSocket服务已启动:127.0.0.1:8888
+2017-03-23 15:24:34.655 [main] INFO  bootLogger - Socket Writer started (pool size:1)
+2017-03-23 15:24:34.656 [main] INFO  bootLogger - Security Manager started
+2017-03-23 15:24:34.657 [main] INFO  com.net.engine.core.NetEngine - [[[ ===--- Boot sequence complete ---=== ]]]
+2017-03-23 15:24:34.657 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.GameServer - Listening Sockets: { 127.0.0.1:8888 (WebSocket) }
+2017-03-23 15:24:34.658 [nettyDefaultEventExecutorGroup-2-2] INFO  com.net.server.GameServer - SmartFoxServer 2X (1.0.0) READY!
+2017-03-23 15:24:34.748 [nettyDefaultEventExecutorGroup-2-3] INFO  c.n.b.basedata.BaseDataManager - ==============加载静态数据成功===============

@@ -1,0 +1,148 @@
+2018-10-25 17:45:31.413 [nettyDefaultEventExecutorGroup-2-3] ERROR c.n.s.c.ExtensionReqController - java.lang.NullPointerException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: Error while handling client request in extension: com.net.business.extensions.ExtensionMain@617fbcef
+Extension Cmd: 2007
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.net.business.extensions.handler.GameUtils.attackTower(GameUtils.java:41)
+com.net.business.extensions.handler.room.KillMonsterHandler.handleClientRequest(KillMonsterHandler.java:23)
+com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77)
+com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97)
+com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150)
+io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+java.lang.Thread.run(Thread.java:748)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+2018-10-25 17:45:33.555 [nettyDefaultEventExecutorGroup-2-3] ERROR c.n.s.c.ExtensionReqController - java.lang.NullPointerException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.NullPointerException
+Message: *** Null ***
+Description: Error while handling client request in extension: com.net.business.extensions.ExtensionMain@617fbcef
+Extension Cmd: 2007
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.net.business.extensions.handler.GameUtils.attackTower(GameUtils.java:41)
+com.net.business.extensions.handler.room.KillMonsterHandler.handleClientRequest(KillMonsterHandler.java:23)
+com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77)
+com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97)
+com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150)
+io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+java.lang.Thread.run(Thread.java:748)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+2018-10-25 18:36:54.574 [nettyDefaultEventExecutorGroup-2-3] ERROR c.n.s.c.ExtensionReqController - java.lang.ClassCastException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: java.lang.ClassCastException
+Message: java.lang.String cannot be cast to java.lang.Integer
+Description: Error while handling client request in extension: com.net.business.extensions.ExtensionMain@617fbcef
+Extension Cmd: 5
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.net.server.data.GameObject.getInt(GameObject.java:207)
+com.net.business.extensions.handler.room.JoinRoomHandler.handleClientRequest(JoinRoomHandler.java:23)
+com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77)
+com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97)
+com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150)
+io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+java.lang.Thread.run(Thread.java:748)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+2018-10-25 18:56:49.472 [nettyDefaultEventExecutorGroup-2-3] ERROR c.n.b.e.h.room.JoinRoomHandler - 加入房间出错:1250,{}
+com.net.server.exceptions.GameException: 房间不存在
+	at com.net.business.extensions.handler.room.JoinRoomHandler.handleClientRequest(JoinRoomHandler.java:27) ~[classes/:na]
+	at com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77) [classes/:na]
+	at com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97) [classes/:na]
+	at com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150) [classes/:na]
+	at io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+2018-10-25 19:19:59.531 [nettyDefaultEventExecutorGroup-2-3] ERROR c.n.b.e.h.room.JoinRoomHandler - 加入房间出错:1250,{}
+com.net.server.exceptions.GameException: 房间不存在
+	at com.net.business.extensions.handler.room.JoinRoomHandler.handleClientRequest(JoinRoomHandler.java:27) ~[classes/:na]
+	at com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77) [classes/:na]
+	at com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97) [classes/:na]
+	at com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150) [classes/:na]
+	at io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+2018-10-25 19:36:17.862 [nettyDefaultEventExecutorGroup-2-3] ERROR c.n.b.e.h.room.JoinRoomHandler - 加入房间出错:1250,{}
+com.net.server.exceptions.GameException: 房间不存在
+	at com.net.business.extensions.handler.room.JoinRoomHandler.handleClientRequest(JoinRoomHandler.java:27) ~[classes/:na]
+	at com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77) [classes/:na]
+	at com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97) [classes/:na]
+	at com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150) [classes/:na]
+	at io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+2018-10-25 19:41:55.198 [nettyDefaultEventExecutorGroup-2-3] ERROR c.n.b.e.h.room.JoinRoomHandler - 加入房间出错:1250,{}
+com.net.server.exceptions.GameException: 房间不存在
+	at com.net.business.extensions.handler.room.JoinRoomHandler.handleClientRequest(JoinRoomHandler.java:27) ~[classes/:na]
+	at com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77) [classes/:na]
+	at com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97) [classes/:na]
+	at com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150) [classes/:na]
+	at io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+2018-10-25 19:41:58.487 [nettyDefaultEventExecutorGroup-2-3] ERROR c.n.b.e.h.room.JoinRoomHandler - 加入房间出错:1250,{}
+com.net.server.exceptions.GameException: 房间不存在
+	at com.net.business.extensions.handler.room.JoinRoomHandler.handleClientRequest(JoinRoomHandler.java:27) ~[classes/:na]
+	at com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77) [classes/:na]
+	at com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97) [classes/:na]
+	at com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150) [classes/:na]
+	at io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+2018-10-25 19:42:01.226 [nettyDefaultEventExecutorGroup-2-3] ERROR c.n.b.e.h.room.JoinRoomHandler - 加入房间出错:1250,{}
+com.net.server.exceptions.GameException: 房间不存在
+	at com.net.business.extensions.handler.room.JoinRoomHandler.handleClientRequest(JoinRoomHandler.java:27) ~[classes/:na]
+	at com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77) [classes/:na]
+	at com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97) [classes/:na]
+	at com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150) [classes/:na]
+	at io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+2018-10-25 20:06:45.437 [nettyDefaultEventExecutorGroup-2-3] ERROR c.n.b.e.h.room.JoinRoomHandler - 加入房间出错:1250,{}
+com.net.server.exceptions.GameException: 房间不存在
+	at com.net.business.extensions.handler.room.JoinRoomHandler.handleClientRequest(JoinRoomHandler.java:27) ~[classes/:na]
+	at com.net.business.extensions.core.GameExtension.handleClientRequest(GameExtension.java:77) [classes/:na]
+	at com.net.server.controllers.ExtensionReqController.processRequest(ExtensionReqController.java:97) [classes/:na]
+	at com.net.server.controllers.ExtensionReqController$RequestRunner.run(ExtensionReqController.java:150) [classes/:na]
+	at io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]
+2018-10-25 21:14:13.878 [nioEventLoopGroup-4-1] ERROR c.net.engine.handler.ServerHandler - Work线程池系统错误
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[na:1.8.0_181]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[na:1.8.0_181]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[na:1.8.0_181]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192) ~[na:1.8.0_181]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[na:1.8.0_181]
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288) ~[netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100) ~[netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:367) ~[netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118) ~[netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_181]

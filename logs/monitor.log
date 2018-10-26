@@ -1,0 +1,11 @@
+2017-03-15 20:01:56.029超时任务出错,位置:0,动作:128
+com.net.server.exceptions.GameException: 位置非法操作
+	at com.net.business.util.game.GameUtils.chuPai(GameUtils.java:277) ~[classes/:na]
+	at com.net.business.util.game.GameUtils.doTimeOutOperation(GameUtils.java:1008) ~[classes/:na]
+	at com.net.business.util.game.TimeOutRunner.run(TimeOutRunner.java:20) [classes/:na]
+	at io.netty.util.concurrent.PromiseTask$RunnableAdapter.call(PromiseTask.java:38) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:120) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144) [netty-all-4.1.5.Final.jar:4.1.5.Final]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_60]
